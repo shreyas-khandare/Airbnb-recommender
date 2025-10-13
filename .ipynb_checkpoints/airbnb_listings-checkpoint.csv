@@ -1,0 +1,1001 @@
+listing_id,city,neighborhood,room_type,property_type,bedrooms,bathrooms,accommodates,review_score,number_of_reviews,host_response_rate,availability_365,cancellation_policy,amenities_count,latitude,longitude,price
+1,Seattle,Downtown,Private room,Villa,1,1,1,4.31,401,97,314,Flexible,10,-45.143321,-75.101621,274.75
+2,Chicago,City Center,Private room,Apartment,1,3,6,3.08,21,67,296,Moderate,7,-28.464192,116.185135,368.79
+3,Boston,Harbor Area,Shared room,Townhouse,1,1,6,4.26,65,90,111,Moderate,7,-59.71312,-17.493239,416.95
+4,Miami,Suburb,Private room,Condo,4,1,3,3.27,20,97,229,Moderate,10,14.69724,0.521071,473.79
+5,Seattle,Uptown,Private room,Apartment,5,2,8,3.11,99,94,95,Strict,7,85.581094,7.498343,436.33
+6,Atlanta,Suburb,Shared room,Villa,3,1,1,2.68,383,91,167,Moderate,5,47.06259,-18.587903,182.29
+7,San Francisco,Suburb,Hotel room,Condo,2,1,1,4.36,299,74,155,Flexible,2,-13.790385,-87.808167,452.53
+8,Seattle,Suburb,Entire home/apt,Condo,4,2,6,4.28,102,63,104,Moderate,9,-89.189193,-136.677442,417.15
+9,Boston,Harbor Area,Hotel room,Apartment,3,3,1,3.09,46,93,192,Moderate,3,-33.610318,-144.526584,348.99
+10,Miami,Suburb,Shared room,Villa,5,1,6,4.37,38,74,329,Strict,3,4.816672,92.686508,616.69
+11,Chicago,Beachside,Entire home/apt,Loft,1,2,1,4.79,284,68,131,Flexible,9,-31.634843,-99.529984,256.46
+12,Boston,Harbor Area,Shared room,Villa,5,1,6,2.77,309,88,354,Strict,7,-70.013714,-159.957787,394.61
+13,Boston,Beachside,Shared room,House,2,2,3,3.08,89,64,137,Strict,3,-10.302308,107.106266,342.96
+14,San Francisco,Harbor Area,Private room,Townhouse,4,3,8,4.38,84,65,330,Flexible,4,-44.414493,-124.537805,599.27
+15,Austin,City Center,Entire home/apt,Cottage,4,3,6,3.19,272,76,269,Strict,9,73.661828,45.052593,457.93
+16,Miami,Midtown,Private room,Loft,2,2,1,4.06,335,89,37,Flexible,6,-71.684185,-58.088422,344.25
+17,Los Angeles,Downtown,Entire home/apt,Condo,3,2,5,2.7,187,59,44,Moderate,7,-81.152527,-134.467108,354.39
+18,Boston,Suburb,Shared room,Loft,3,2,8,3.63,158,53,162,Flexible,8,-89.04345,-30.786847,474.62
+19,Austin,City Center,Shared room,Townhouse,4,3,3,4.35,242,68,330,Flexible,5,-30.947457,-174.66881,409.45
+20,Los Angeles,Midtown,Hotel room,Condo,4,1,6,4.22,72,77,252,Flexible,5,28.869631,122.776194,485.2
+21,Miami,Downtown,Entire home/apt,Townhouse,1,3,5,4.54,478,70,168,Strict,4,41.474476,4.859266,469.08
+22,New York,Old Town,Private room,Condo,3,2,6,4.69,461,96,284,Flexible,3,-8.412897,-129.902396,544.51
+23,Atlanta,Uptown,Hotel room,Loft,2,2,1,4.43,48,63,273,Flexible,8,33.179157,-94.687085,224.2
+24,Austin,Beachside,Hotel room,Condo,3,3,7,4.18,100,82,19,Flexible,6,-25.215473,-18.728931,465.23
+25,Denver,Old Town,Hotel room,Condo,1,2,9,2.58,1,97,238,Moderate,2,30.20512,-112.007022,276.4
+26,New York,Harbor Area,Private room,House,4,3,2,3.84,243,59,269,Flexible,8,-82.692723,-83.304302,467.13
+27,Atlanta,Downtown,Hotel room,Villa,4,2,5,2.59,175,68,309,Strict,5,-19.664463,12.378803,290.84
+28,San Francisco,Old Town,Private room,Villa,1,1,4,4.52,237,79,30,Flexible,5,52.352942,119.739245,355.92
+29,Seattle,Uptown,Hotel room,Cottage,2,1,6,3.3,397,71,313,Flexible,4,54.541085,-35.337713,363.63
+30,Chicago,City Center,Private room,Cottage,4,2,6,3.91,58,52,103,Moderate,8,38.90678,78.111098,398.92
+31,Denver,Downtown,Shared room,House,5,3,2,3.2,352,86,169,Flexible,8,-53.237048,135.606317,367.24
+32,San Francisco,Old Town,Shared room,Cottage,4,1,2,4.46,98,90,185,Strict,8,-45.503079,-102.131661,485.44
+33,Miami,Beachside,Shared room,Townhouse,5,3,4,4.72,441,67,127,Flexible,5,89.295971,110.589109,622.53
+34,San Francisco,Beachside,Shared room,Loft,1,2,1,3.5,358,60,209,Strict,3,-71.391959,92.664791,368.78
+35,Seattle,Midtown,Shared room,Apartment,1,3,9,4.66,441,97,280,Moderate,4,-57.480714,-51.502573,466.0
+36,Miami,Old Town,Hotel room,Townhouse,4,1,7,3.17,494,51,252,Flexible,6,-66.595274,176.227185,536.66
+37,Denver,Suburb,Hotel room,Apartment,3,3,7,3.84,434,61,18,Moderate,6,-31.022107,-85.473946,370.81
+38,Seattle,Old Town,Hotel room,Apartment,5,3,3,4.65,467,55,199,Flexible,8,-52.16835,-88.270824,474.57
+39,Los Angeles,City Center,Private room,House,2,2,3,3.31,1,92,219,Strict,7,-0.416167,98.013299,359.08
+40,Chicago,Downtown,Private room,Townhouse,4,2,1,4.89,242,89,135,Moderate,5,-4.316273,-23.523366,351.48
+41,Denver,Downtown,Private room,House,2,2,3,2.8,296,93,222,Flexible,10,72.271012,-60.913802,260.13
+42,Los Angeles,City Center,Private room,Condo,4,1,3,2.55,210,78,2,Strict,8,-83.746809,-115.68139,404.74
+43,Atlanta,Old Town,Shared room,Apartment,3,1,4,4.76,122,79,235,Moderate,8,-32.421676,95.519675,298.91
+44,Denver,City Center,Shared room,Loft,3,2,4,2.67,228,51,341,Flexible,2,17.398421,103.07585,280.38
+45,Atlanta,Uptown,Shared room,Cottage,3,2,3,4.98,81,58,227,Moderate,3,18.864317,23.963041,325.88
+46,Miami,Harbor Area,Entire home/apt,Loft,3,1,8,4.88,143,96,141,Flexible,3,-3.577279,164.632901,578.59
+47,Los Angeles,City Center,Hotel room,Cottage,1,1,8,2.84,387,51,8,Strict,3,56.819797,-65.461223,339.28
+48,Chicago,Beachside,Private room,Apartment,1,1,1,3.84,139,78,189,Strict,6,-78.710009,-100.937144,236.92
+49,Seattle,City Center,Private room,Apartment,5,1,7,2.96,28,82,349,Moderate,2,56.787798,63.888037,469.87
+50,Boston,Downtown,Shared room,Apartment,2,2,2,3.57,390,59,164,Moderate,7,-0.944237,93.027111,354.8
+51,San Francisco,Beachside,Private room,House,4,1,1,2.65,269,83,138,Flexible,4,-65.923075,-99.033851,327.39
+52,New York,Downtown,Private room,Townhouse,4,2,3,3.06,246,93,275,Strict,6,69.426344,-152.420125,495.82
+53,Chicago,Midtown,Hotel room,Cottage,1,3,4,3.41,11,57,290,Flexible,5,26.86118,111.785935,307.33
+54,Los Angeles,Suburb,Shared room,Townhouse,4,3,6,3.6,354,86,52,Strict,10,-60.561776,171.540711,520.77
+55,Boston,Downtown,Hotel room,House,1,1,5,4.94,388,82,174,Moderate,3,-83.94305,52.082023,356.57
+56,Chicago,Beachside,Entire home/apt,House,5,3,4,4.52,336,96,109,Flexible,6,-64.600263,-79.967916,442.84
+57,Los Angeles,Midtown,Entire home/apt,Villa,2,3,8,4.34,105,55,202,Flexible,3,19.583633,178.802139,521.39
+58,Austin,Downtown,Entire home/apt,Loft,5,3,4,3.84,31,93,135,Strict,7,-57.726678,141.575989,423.76
+59,Austin,Uptown,Shared room,Loft,3,1,2,4.6,73,89,3,Strict,10,-49.362647,4.817033,331.08
+60,Atlanta,City Center,Private room,Condo,3,1,3,3.35,170,94,154,Strict,7,-85.474849,117.115663,269.9
+61,Chicago,Suburb,Shared room,House,3,3,6,4.27,336,68,171,Moderate,2,40.127521,113.695388,383.77
+62,Austin,Downtown,Shared room,Cottage,5,2,8,4.98,68,81,357,Flexible,2,55.865592,156.527629,515.8
+63,Los Angeles,Midtown,Private room,Villa,4,3,8,3.29,300,76,46,Strict,10,53.432672,122.732584,486.65
+64,Atlanta,Uptown,Hotel room,Villa,2,1,9,4.19,361,50,93,Moderate,4,-67.037733,51.724525,353.26
+65,Los Angeles,Old Town,Entire home/apt,Townhouse,3,1,7,4.61,136,92,47,Strict,8,72.594203,39.349339,495.78
+66,Atlanta,Midtown,Hotel room,Loft,3,1,2,4.79,432,82,239,Flexible,2,31.010189,-11.751376,272.63
+67,Chicago,City Center,Entire home/apt,House,3,3,8,4.29,416,89,346,Strict,4,71.555152,45.53483,418.99
+68,Boston,Midtown,Shared room,Condo,2,2,7,3.21,483,81,212,Flexible,3,-9.511109,106.277971,374.05
+69,Seattle,Uptown,Entire home/apt,House,3,1,8,3.32,99,54,339,Moderate,10,-11.348125,168.853545,406.8
+70,Denver,Midtown,Shared room,Townhouse,2,1,3,2.55,145,66,323,Moderate,10,51.216573,-11.776551,238.38
+71,Boston,Uptown,Hotel room,Apartment,3,3,7,4.4,8,57,138,Strict,10,-73.206386,26.515153,487.21
+72,Miami,Downtown,Shared room,House,5,2,9,2.61,61,91,204,Flexible,6,3.757327,-19.870022,554.98
+73,Los Angeles,Harbor Area,Hotel room,Townhouse,5,3,3,4.66,184,83,72,Flexible,9,60.549162,60.655904,515.92
+74,Miami,Uptown,Private room,Apartment,2,1,6,2.8,28,58,3,Flexible,6,59.434661,46.771381,422.28
+75,Boston,Uptown,Private room,Apartment,5,2,2,2.93,380,72,75,Strict,10,82.103914,-173.579836,396.35
+76,Atlanta,Suburb,Private room,Condo,2,2,2,3.69,113,84,328,Flexible,8,35.689067,14.818161,259.81
+77,Denver,Uptown,Shared room,Cottage,5,1,5,4.34,461,99,76,Flexible,3,-52.601287,-148.144718,409.54
+78,Denver,Uptown,Private room,Loft,5,2,5,2.85,408,56,303,Flexible,5,-86.349543,-170.501898,335.17
+79,New York,Old Town,Entire home/apt,House,2,2,7,3.6,142,64,255,Flexible,6,-3.705156,104.830978,458.33
+80,Denver,Harbor Area,Hotel room,Apartment,4,3,2,3.71,389,69,101,Strict,6,2.466696,-86.88605,351.72
+81,Seattle,Downtown,Hotel room,House,5,1,7,3.03,119,99,105,Strict,7,-46.752735,-57.364172,397.54
+82,Denver,City Center,Entire home/apt,Cottage,3,1,5,2.79,169,74,332,Flexible,4,-67.55446,-156.929548,288.91
+83,Boston,Suburb,Shared room,Loft,4,1,6,4.59,156,52,38,Flexible,2,15.51747,-115.379906,437.51
+84,New York,Old Town,Shared room,Cottage,2,1,8,3.76,334,95,313,Moderate,5,47.566021,95.617735,527.31
+85,Boston,Beachside,Hotel room,Loft,4,1,4,2.54,348,73,274,Moderate,3,88.767739,-2.328901,369.21
+86,Boston,Harbor Area,Private room,Villa,1,2,7,4.51,259,83,87,Flexible,10,46.494471,137.040647,430.78
+87,San Francisco,Downtown,Shared room,Loft,1,3,6,4.95,81,95,210,Flexible,4,52.853835,-36.992833,520.15
+88,New York,Downtown,Shared room,Condo,5,1,2,4.01,241,71,76,Moderate,3,20.962958,-83.267735,433.25
+89,Boston,Beachside,Entire home/apt,Cottage,5,3,8,3.76,440,60,76,Moderate,8,87.466079,-54.864067,608.51
+90,San Francisco,City Center,Entire home/apt,Apartment,3,3,9,4.7,432,97,27,Flexible,9,25.192149,76.597846,662.68
+91,San Francisco,Uptown,Private room,Villa,4,2,5,4.88,171,57,244,Strict,2,64.845592,19.802042,725.56
+92,New York,Old Town,Shared room,Condo,1,1,4,4.39,230,88,65,Strict,5,80.241236,145.508835,373.22
+93,Miami,Midtown,Shared room,House,5,2,6,3.61,207,92,265,Flexible,6,77.37453,36.780757,521.08
+94,Atlanta,Suburb,Entire home/apt,Cottage,4,1,8,3.98,74,84,204,Flexible,7,-21.345238,-2.513445,324.45
+95,Seattle,Midtown,Shared room,Townhouse,5,2,3,4.25,269,98,57,Moderate,8,-75.84083,102.870981,453.79
+96,Atlanta,Beachside,Hotel room,Townhouse,5,3,1,2.99,386,95,200,Moderate,7,-59.062734,161.112186,330.83
+97,Denver,Downtown,Entire home/apt,Apartment,1,1,4,3.62,498,87,224,Strict,5,-79.339805,-51.895472,269.28
+98,Seattle,City Center,Private room,Loft,1,3,4,4.57,113,57,141,Flexible,10,-71.028552,-90.044564,337.29
+99,Denver,Downtown,Entire home/apt,Apartment,5,3,1,4.14,61,86,83,Moderate,10,-56.762776,41.838263,385.42
+100,Boston,Suburb,Shared room,Townhouse,2,2,9,3.53,361,76,142,Strict,2,-28.603023,-0.405784,479.21
+101,Los Angeles,Downtown,Private room,House,5,1,3,4.16,319,77,351,Strict,6,7.837136,176.106807,474.12
+102,New York,Downtown,Entire home/apt,Villa,5,3,5,2.8,101,89,32,Strict,9,38.102771,-13.549758,522.39
+103,Seattle,Suburb,Hotel room,Villa,3,2,6,3.5,428,83,151,Moderate,3,-52.03308,-153.240642,395.4
+104,Seattle,Old Town,Hotel room,Cottage,3,1,8,4.48,361,81,157,Moderate,6,31.054033,171.852862,461.76
+105,Boston,Old Town,Entire home/apt,Villa,3,1,6,3.05,209,64,140,Flexible,2,36.766633,123.6913,378.54
+106,Miami,Suburb,Hotel room,Cottage,2,3,3,2.96,441,93,250,Flexible,9,10.552021,-115.829948,432.74
+107,San Francisco,City Center,Hotel room,Cottage,2,1,6,4.88,254,66,302,Strict,4,72.651217,145.657891,497.19
+108,Boston,Beachside,Hotel room,Cottage,5,3,1,3.02,19,82,111,Strict,4,-70.020933,-57.359945,367.62
+109,Austin,Harbor Area,Private room,Townhouse,3,1,4,3.15,57,96,143,Moderate,9,-58.118138,-44.239686,290.25
+110,San Francisco,Downtown,Hotel room,Townhouse,2,2,6,4.92,111,95,208,Moderate,4,-12.840332,146.300934,508.71
+111,New York,City Center,Hotel room,Loft,1,3,7,4.34,472,65,223,Flexible,2,-67.191708,10.841603,494.52
+112,San Francisco,Downtown,Hotel room,Condo,5,3,3,4.25,312,78,42,Flexible,3,11.933306,-130.405345,614.41
+113,Miami,Harbor Area,Private room,Cottage,4,1,9,4.63,485,58,263,Flexible,7,-18.287916,-47.139783,573.96
+114,San Francisco,Beachside,Entire home/apt,Cottage,5,1,7,2.79,460,82,243,Moderate,2,-38.772757,79.955081,574.12
+115,New York,Old Town,Shared room,Condo,4,3,1,4.26,195,98,2,Strict,2,-59.401834,-117.293692,497.26
+116,Miami,City Center,Hotel room,Apartment,3,1,2,3.76,374,78,124,Flexible,2,-29.639117,32.483231,378.19
+117,Atlanta,Uptown,Entire home/apt,Cottage,4,2,1,4.57,461,62,267,Flexible,8,19.432683,70.298688,336.04
+118,Seattle,Uptown,Hotel room,Loft,3,1,9,3.77,352,70,83,Moderate,5,13.641338,-56.212713,480.54
+119,Seattle,Harbor Area,Private room,Villa,1,2,9,4.05,91,70,15,Flexible,5,-60.54768,69.797048,429.62
+120,Denver,Uptown,Entire home/apt,Villa,4,2,7,3.69,51,54,333,Strict,4,-67.514434,138.314647,391.18
+121,Atlanta,Old Town,Private room,House,5,2,3,3.7,292,59,58,Moderate,2,-85.198183,-10.037972,274.86
+122,Atlanta,Harbor Area,Hotel room,House,3,2,5,4.42,7,55,176,Flexible,6,-87.763393,-42.152642,296.5
+123,San Francisco,Old Town,Hotel room,Villa,5,2,4,4.07,299,62,62,Flexible,2,68.365878,-89.582976,568.68
+124,Seattle,Beachside,Private room,Villa,2,1,7,4.08,97,50,48,Moderate,3,-81.884006,37.513973,368.68
+125,New York,Downtown,Shared room,Townhouse,3,2,9,3.63,235,69,306,Moderate,3,41.6198,136.746737,498.12
+126,Chicago,Beachside,Private room,Loft,4,1,2,3.83,388,96,245,Flexible,3,66.957317,-63.121944,336.39
+127,Chicago,Beachside,Hotel room,Condo,3,2,8,4.36,373,95,288,Strict,6,-72.349587,-37.355211,450.08
+128,Miami,Old Town,Private room,House,5,3,9,4.56,68,57,285,Moderate,7,-11.465744,-33.614814,653.55
+129,Seattle,Harbor Area,Shared room,Townhouse,1,2,9,4.24,414,59,331,Strict,7,83.214537,21.892443,442.3
+130,Seattle,Harbor Area,Private room,Townhouse,3,3,7,4.81,44,58,14,Flexible,3,60.144959,-97.772774,495.3
+131,Chicago,Uptown,Shared room,Condo,4,2,9,4.55,136,98,337,Strict,10,-1.853274,115.996016,448.13
+132,Seattle,Midtown,Shared room,Townhouse,2,2,9,3.9,233,90,254,Flexible,10,47.2628,-73.58318,472.33
+133,San Francisco,Downtown,Private room,Loft,1,2,3,4.18,31,52,91,Flexible,5,60.007972,73.930569,363.16
+134,Austin,Old Town,Private room,Villa,2,3,4,4.82,288,60,278,Flexible,10,-27.355147,4.757667,341.92
+135,Los Angeles,Uptown,Entire home/apt,Cottage,3,3,2,4.05,125,61,205,Flexible,10,70.587525,30.923137,373.61
+136,Atlanta,City Center,Hotel room,Condo,5,2,3,4.56,66,59,93,Strict,5,-5.314802,-115.340854,359.67
+137,Denver,Midtown,Shared room,Villa,5,1,5,4.22,29,74,224,Flexible,6,5.005325,84.608351,371.57
+138,Miami,Midtown,Entire home/apt,Villa,4,2,5,3.88,113,98,300,Flexible,10,89.947375,-112.096613,517.36
+139,Austin,Old Town,Private room,Apartment,5,3,6,3.1,203,98,317,Strict,2,61.794534,-139.14949,498.17
+140,Chicago,Suburb,Hotel room,Condo,1,2,7,3.56,28,74,198,Moderate,3,-24.881399,16.80462,290.07
+141,Atlanta,Downtown,Entire home/apt,Townhouse,5,3,7,4.92,130,60,270,Strict,7,-88.137793,75.346969,437.89
+142,Seattle,Midtown,Shared room,Cottage,4,3,1,4.14,473,85,233,Strict,6,22.711333,-161.987099,403.61
+143,Denver,Old Town,Entire home/apt,Condo,3,3,2,3.91,184,88,45,Strict,3,36.704417,-155.017687,300.7
+144,Seattle,Old Town,Shared room,Townhouse,3,2,9,4.83,252,75,63,Flexible,6,27.144484,108.964499,509.81
+145,New York,Uptown,Private room,Villa,5,3,2,3.97,285,63,229,Flexible,6,84.215223,111.251772,549.55
+146,New York,City Center,Hotel room,Cottage,2,3,6,3.82,392,88,248,Flexible,2,65.334785,-91.690302,495.16
+147,Denver,Suburb,Hotel room,Townhouse,3,2,1,4.4,409,89,245,Moderate,6,-9.210295,41.482153,313.33
+148,Denver,Downtown,Hotel room,Loft,5,3,3,4.28,385,50,74,Flexible,3,-78.685652,-20.455173,382.45
+149,Chicago,Harbor Area,Private room,Townhouse,4,2,2,2.98,61,53,156,Moderate,7,-4.309421,47.770575,306.56
+150,Denver,Beachside,Shared room,Apartment,5,3,3,3.68,2,79,222,Flexible,9,34.063924,130.636542,355.89
+151,San Francisco,City Center,Private room,Villa,3,1,5,3.68,429,61,189,Strict,8,19.387765,-151.251687,489.95
+152,Seattle,City Center,Hotel room,Townhouse,4,1,6,3.45,67,84,51,Flexible,6,6.864672,100.074393,378.78
+153,Austin,Uptown,Private room,House,5,3,9,3.79,24,62,87,Moderate,3,-5.612588,-2.509522,482.25
+154,Boston,Harbor Area,Private room,House,1,1,4,3.53,178,80,312,Moderate,3,-37.122863,23.0857,310.24
+155,Denver,Midtown,Private room,Apartment,4,2,7,3.0,140,87,338,Flexible,8,-40.077583,55.41529,365.52
+156,Miami,Midtown,Shared room,Loft,1,1,6,3.53,230,92,65,Strict,3,0.041666,152.144334,451.02
+157,New York,Uptown,Entire home/apt,Villa,2,3,2,2.68,299,72,149,Flexible,5,-61.091434,-159.580817,370.82
+158,San Francisco,Old Town,Entire home/apt,Condo,4,3,8,3.94,162,53,19,Flexible,4,-28.676624,-169.388513,576.3
+159,Atlanta,Midtown,Private room,Apartment,1,2,7,4.63,310,65,32,Flexible,4,-31.683731,-115.825759,282.09
+160,Boston,Suburb,Entire home/apt,Loft,3,3,7,4.31,470,56,327,Strict,5,15.683904,175.121181,530.44
+161,Austin,Downtown,Entire home/apt,Condo,3,2,8,3.4,392,71,280,Moderate,6,-77.997186,77.427492,381.77
+162,Boston,City Center,Private room,House,2,1,1,2.72,129,78,45,Strict,6,59.340362,41.270803,231.5
+163,Denver,City Center,Private room,House,4,1,1,3.01,444,60,72,Moderate,9,11.228108,-163.065941,275.19
+164,Chicago,Suburb,Hotel room,Condo,4,2,8,3.86,245,82,353,Moderate,4,30.748803,136.479681,434.2
+165,New York,Harbor Area,Entire home/apt,Apartment,4,2,4,3.02,296,78,312,Moderate,8,36.556903,112.592467,420.93
+166,New York,Midtown,Shared room,House,2,3,5,3.86,171,88,342,Strict,4,-37.532855,59.328016,454.32
+167,Atlanta,City Center,Private room,Villa,4,1,8,3.08,63,61,132,Flexible,9,-5.333118,-57.912906,344.29
+168,Chicago,Beachside,Hotel room,Cottage,3,2,5,4.62,30,56,54,Flexible,4,82.124272,-154.618216,400.6
+169,Seattle,Harbor Area,Shared room,Townhouse,1,1,4,3.49,491,88,60,Flexible,2,48.006943,28.813856,265.65
+170,Los Angeles,Downtown,Entire home/apt,Condo,3,2,6,3.11,46,91,344,Flexible,9,84.520238,79.090046,363.32
+171,San Francisco,Downtown,Hotel room,Condo,3,1,5,4.53,129,97,7,Flexible,5,44.325782,-146.073474,538.31
+172,New York,City Center,Private room,House,1,3,7,3.36,351,75,271,Strict,4,-58.391975,48.156358,451.04
+173,Miami,Uptown,Shared room,Apartment,3,1,7,2.78,465,89,245,Strict,8,-78.383541,-76.908216,436.96
+174,New York,Harbor Area,Private room,Villa,2,1,4,3.93,332,58,175,Strict,3,13.979059,95.12792,435.14
+175,Boston,City Center,Entire home/apt,Apartment,1,1,5,3.95,109,90,115,Strict,6,-25.59361,14.261706,325.8
+176,New York,Uptown,Shared room,Loft,3,1,3,4.29,68,83,316,Strict,6,-40.417576,-133.546756,435.43
+177,New York,City Center,Entire home/apt,Loft,5,1,4,3.1,57,94,270,Strict,10,55.297979,9.547001,457.05
+178,Los Angeles,Beachside,Entire home/apt,Cottage,3,3,4,3.61,105,62,192,Strict,10,-23.941212,-37.534729,406.7
+179,Los Angeles,Harbor Area,Hotel room,House,2,2,3,3.21,299,85,149,Flexible,5,-32.939825,-115.071851,368.07
+180,Austin,Old Town,Private room,House,4,1,5,2.7,329,74,130,Moderate,6,62.997767,122.945661,353.89
+181,Seattle,Downtown,Shared room,House,3,3,5,4.69,255,73,101,Strict,7,62.331721,-176.029759,417.44
+182,Miami,City Center,Entire home/apt,Cottage,4,1,7,4.32,311,93,309,Moderate,3,-25.854005,-67.63382,555.56
+183,New York,Beachside,Entire home/apt,Loft,5,1,4,3.25,170,66,269,Strict,2,59.849766,-175.465786,478.53
+184,New York,Uptown,Shared room,Apartment,3,2,4,4.0,382,51,291,Strict,9,63.140128,-145.437499,504.94
+185,San Francisco,Uptown,Entire home/apt,Cottage,1,1,9,3.0,472,62,209,Flexible,3,-13.692504,-73.045361,410.22
+186,Los Angeles,Downtown,Hotel room,Cottage,4,3,6,4.73,161,80,360,Moderate,5,-78.034837,-160.462373,516.38
+187,Miami,Suburb,Hotel room,Apartment,5,3,4,2.79,484,78,337,Flexible,7,-89.714764,34.786992,505.89
+188,Atlanta,City Center,Hotel room,House,1,2,2,2.51,285,99,66,Flexible,6,4.192643,-148.729353,165.79
+189,Austin,Harbor Area,Hotel room,Villa,1,1,6,3.76,70,77,9,Moderate,10,-28.066411,72.616908,309.68
+190,Seattle,Midtown,Entire home/apt,Apartment,1,3,2,3.96,254,76,48,Flexible,8,89.483741,-161.048839,296.1
+191,Chicago,Uptown,Shared room,Loft,1,1,5,3.95,453,64,110,Strict,10,49.03398,-158.648798,276.02
+192,Seattle,Harbor Area,Shared room,Condo,3,1,6,2.64,373,80,320,Strict,8,47.029582,-70.082676,357.54
+193,Boston,Harbor Area,Shared room,Condo,3,1,4,3.29,54,89,218,Strict,6,81.943698,142.765749,378.33
+194,New York,Old Town,Shared room,Townhouse,3,2,3,3.75,322,64,56,Strict,10,69.790392,50.90157,437.14
+195,Austin,Harbor Area,Private room,Townhouse,5,1,7,3.04,396,82,282,Strict,5,-32.726254,97.247265,428.21
+196,Boston,Harbor Area,Shared room,Cottage,5,3,2,4.68,2,69,112,Flexible,7,-60.1223,-129.041241,514.97
+197,Miami,Old Town,Private room,Condo,5,1,6,2.72,25,91,132,Flexible,5,44.260608,120.285156,476.53
+198,Chicago,Uptown,Private room,Villa,2,3,4,3.72,312,61,70,Strict,2,-21.910699,-177.067351,314.06
+199,Los Angeles,Harbor Area,Hotel room,House,5,1,6,4.23,125,86,82,Strict,7,-4.828923,-103.299354,545.14
+200,Austin,Suburb,Private room,Loft,3,3,4,3.15,407,58,56,Flexible,9,23.471592,41.793236,374.19
+201,Austin,Suburb,Entire home/apt,Townhouse,3,3,4,4.06,52,72,348,Moderate,10,73.417082,-44.911293,368.17
+202,New York,Beachside,Private room,Villa,2,1,4,4.57,197,57,270,Flexible,4,-14.564204,174.309621,464.27
+203,Denver,Old Town,Hotel room,Loft,2,1,9,2.98,298,81,110,Flexible,6,50.99704,-169.077871,330.13
+204,Austin,Beachside,Private room,Loft,5,3,7,4.79,187,97,356,Flexible,9,-41.698838,179.49534,521.95
+205,San Francisco,Old Town,Entire home/apt,House,4,2,3,3.88,185,63,75,Flexible,6,35.634922,44.50602,518.7
+206,Chicago,City Center,Entire home/apt,Cottage,2,1,3,3.25,304,76,157,Flexible,9,-89.715704,21.134518,211.47
+207,Chicago,City Center,Entire home/apt,Condo,1,2,6,3.58,297,74,19,Moderate,2,66.871298,-158.575521,286.04
+208,San Francisco,Harbor Area,Hotel room,House,3,1,6,3.28,203,62,130,Strict,2,-84.531676,-81.601604,513.14
+209,Atlanta,Midtown,Hotel room,Villa,1,1,4,4.31,496,70,328,Strict,5,38.295676,152.878568,224.51
+210,San Francisco,City Center,Shared room,Cottage,3,1,9,4.49,483,94,121,Moderate,7,-81.673526,-52.471439,595.56
+211,San Francisco,Midtown,Hotel room,Villa,3,1,4,4.58,449,80,40,Strict,2,-42.075774,58.195152,475.62
+212,Chicago,City Center,Entire home/apt,Cottage,2,2,9,4.96,10,86,166,Strict,8,-0.503567,179.818686,425.38
+213,Seattle,Downtown,Entire home/apt,Townhouse,2,1,4,4.48,358,97,129,Strict,9,-14.411037,-85.294903,381.86
+214,Chicago,City Center,Hotel room,Villa,1,3,2,4.0,353,92,22,Moderate,10,-55.469499,27.389116,302.39
+215,Denver,Beachside,Private room,House,3,3,2,3.35,473,54,278,Moderate,6,-29.913316,70.717605,265.64
+216,New York,Uptown,Hotel room,Cottage,1,2,5,3.86,145,62,250,Strict,7,40.987147,-120.734191,422.7
+217,Boston,Harbor Area,Hotel room,Cottage,4,1,4,2.6,84,77,8,Strict,8,30.466277,-126.477877,430.77
+218,Seattle,Beachside,Entire home/apt,Loft,1,3,7,4.36,99,92,12,Strict,5,-77.073375,-15.729152,447.25
+219,Los Angeles,Uptown,Shared room,Loft,5,2,5,3.61,103,74,306,Flexible,9,44.516849,-41.107492,495.23
+220,Boston,Suburb,Entire home/apt,Apartment,1,1,6,2.55,435,84,319,Flexible,10,-80.451741,77.117557,253.65
+221,New York,Beachside,Shared room,Villa,5,3,4,2.66,45,96,51,Flexible,10,7.72675,-154.976842,515.0
+222,Denver,Suburb,Entire home/apt,Loft,5,3,2,3.47,43,88,208,Moderate,10,-43.188705,169.979985,388.17
+223,Denver,Midtown,Hotel room,Apartment,5,2,9,3.96,277,56,37,Strict,8,15.784223,-174.860287,457.17
+224,Los Angeles,Midtown,Entire home/apt,Townhouse,4,1,7,3.66,180,87,99,Moderate,5,-42.960889,36.474057,487.09
+225,Seattle,Downtown,Entire home/apt,Townhouse,1,1,4,4.05,186,81,192,Moderate,9,87.292435,22.547735,299.95
+226,Atlanta,City Center,Entire home/apt,Loft,1,3,3,3.7,477,52,190,Moderate,2,-34.248927,-131.502337,246.12
+227,San Francisco,Beachside,Hotel room,Villa,4,3,3,4.15,113,94,50,Strict,4,-46.447086,-125.670246,595.88
+228,Seattle,Suburb,Hotel room,Cottage,3,3,9,3.05,490,88,140,Flexible,7,-39.876248,105.363896,493.29
+229,Atlanta,Uptown,Hotel room,Condo,2,1,5,2.78,254,86,167,Strict,3,71.365114,139.522485,241.29
+230,Denver,Midtown,Hotel room,Villa,1,2,3,3.99,380,99,310,Strict,2,24.519389,-78.113892,284.1
+231,Chicago,City Center,Shared room,House,2,2,5,3.71,379,71,108,Moderate,8,41.523138,-22.332973,323.28
+232,New York,Midtown,Shared room,Townhouse,4,1,2,2.57,29,57,206,Moderate,3,75.241892,-52.201785,383.21
+233,Los Angeles,Uptown,Private room,Loft,3,2,4,3.45,263,66,299,Moderate,3,74.137047,-153.883075,389.87
+234,New York,City Center,Hotel room,Loft,3,3,2,2.77,97,76,109,Flexible,3,43.010252,62.353529,432.61
+235,Miami,City Center,Shared room,Cottage,3,2,2,3.83,312,82,195,Flexible,7,-54.391603,117.069457,448.73
+236,Miami,Suburb,Entire home/apt,House,4,2,8,3.49,366,95,151,Flexible,10,61.807198,-70.243431,562.56
+237,Seattle,Suburb,Hotel room,Cottage,5,2,1,4.03,328,66,242,Strict,7,-53.320314,176.463286,379.48
+238,Denver,Beachside,Private room,House,5,3,7,4.51,114,91,127,Moderate,4,43.721787,-152.693439,412.27
+239,Denver,Beachside,Private room,Condo,2,1,5,3.25,275,61,104,Strict,6,33.408552,58.244657,293.31
+240,San Francisco,Old Town,Private room,Townhouse,5,3,8,4.91,487,97,9,Flexible,4,46.599993,-18.637915,742.86
+241,San Francisco,Harbor Area,Entire home/apt,Loft,5,1,1,3.84,280,95,355,Moderate,8,5.883423,-19.223316,503.14
+242,San Francisco,Old Town,Shared room,Loft,3,1,7,4.05,274,76,147,Flexible,5,24.970713,-15.247578,546.65
+243,Chicago,Downtown,Entire home/apt,Condo,3,1,5,4.2,260,97,364,Moderate,2,81.597614,-86.874561,396.15
+244,Boston,Midtown,Hotel room,Apartment,2,2,4,4.17,330,57,363,Moderate,5,-71.804053,77.602618,385.64
+245,Austin,Beachside,Private room,Townhouse,1,2,7,3.78,206,72,139,Strict,5,-34.407491,79.767549,383.65
+246,Boston,Suburb,Entire home/apt,Cottage,2,1,2,3.57,383,91,189,Strict,4,20.044262,-78.33704,332.84
+247,New York,Uptown,Entire home/apt,Condo,2,1,1,2.63,327,98,93,Flexible,3,83.529743,120.710326,249.37
+248,Boston,Suburb,Shared room,Cottage,4,2,1,2.56,210,78,228,Strict,7,-72.796599,-65.93582,328.48
+249,Chicago,Midtown,Shared room,Villa,4,3,1,3.39,214,99,62,Strict,10,-85.94114,81.033525,321.76
+250,New York,Old Town,Private room,Loft,2,1,5,3.33,410,69,339,Strict,9,-79.965072,-136.440084,444.62
+251,Boston,Suburb,Entire home/apt,Cottage,2,3,7,3.47,39,65,24,Moderate,7,-80.566976,-119.267409,484.47
+252,Chicago,Harbor Area,Entire home/apt,House,2,2,2,2.85,479,66,267,Strict,2,73.406854,-66.313568,266.41
+253,Austin,Downtown,Shared room,Cottage,5,1,8,4.35,25,65,280,Flexible,9,39.826423,33.794556,461.71
+254,Boston,Midtown,Entire home/apt,Villa,4,3,4,4.64,26,68,10,Moderate,8,31.879146,52.384135,479.33
+255,Chicago,Old Town,Entire home/apt,Townhouse,2,3,3,4.85,189,57,319,Moderate,8,4.063108,-37.311778,383.11
+256,San Francisco,Harbor Area,Entire home/apt,Loft,3,3,8,3.73,82,87,200,Strict,10,50.751471,-151.977905,553.39
+257,Denver,Uptown,Shared room,Condo,3,2,2,4.25,383,87,125,Moderate,9,-61.983361,-45.491525,303.45
+258,San Francisco,Old Town,Private room,Villa,5,2,3,4.64,433,78,305,Flexible,3,-19.450586,67.956306,686.07
+259,Denver,City Center,Hotel room,Loft,5,3,3,3.55,169,90,189,Flexible,6,-1.799235,61.558366,350.83
+260,Los Angeles,Harbor Area,Private room,Cottage,1,3,1,3.27,412,85,88,Moderate,2,-70.12629,-122.329291,271.71
+261,Los Angeles,Harbor Area,Hotel room,Townhouse,1,2,6,4.84,166,75,354,Strict,3,-14.487532,-177.197771,373.11
+262,Los Angeles,Downtown,Entire home/apt,Apartment,1,3,2,3.79,187,80,115,Strict,2,-33.02968,91.073382,425.33
+263,Austin,Midtown,Private room,Townhouse,5,3,1,3.74,168,93,351,Moderate,7,-83.595214,-141.70746,412.68
+264,San Francisco,Uptown,Hotel room,Apartment,5,2,2,2.95,288,61,176,Flexible,4,-65.387628,-150.354308,460.69
+265,Denver,Downtown,Shared room,House,5,3,6,2.77,466,66,13,Moderate,8,47.526628,-179.027562,368.48
+266,Chicago,Old Town,Shared room,Townhouse,3,3,4,4.61,228,64,256,Strict,7,-86.753176,-24.263523,368.41
+267,New York,Downtown,Private room,Loft,5,3,6,4.04,466,58,208,Strict,7,78.165594,1.175004,548.15
+268,Chicago,Harbor Area,Private room,Apartment,3,2,9,3.31,96,88,280,Moderate,10,-74.443566,49.559057,412.51
+269,New York,Midtown,Entire home/apt,Condo,1,3,8,2.98,366,91,327,Flexible,8,53.862857,-73.417017,466.7
+270,Miami,Beachside,Private room,Loft,1,2,1,3.89,15,97,324,Moderate,3,71.750977,75.752898,358.78
+271,Chicago,Downtown,Entire home/apt,Condo,1,2,8,3.96,278,61,104,Flexible,6,79.404405,-119.040531,344.8
+272,Boston,City Center,Entire home/apt,Townhouse,2,1,9,3.02,134,81,146,Flexible,4,66.145864,119.516419,417.96
+273,Boston,Downtown,Shared room,Condo,2,1,6,4.63,25,74,278,Moderate,2,-38.240993,25.865398,357.53
+274,Seattle,Old Town,Shared room,Apartment,4,3,5,2.71,351,88,8,Moderate,6,-30.044316,30.200336,449.56
+275,San Francisco,Old Town,Hotel room,Loft,4,2,6,3.39,11,67,117,Flexible,9,-13.221774,-104.480851,512.4
+276,New York,Uptown,Shared room,Cottage,4,1,6,4.2,71,64,93,Flexible,7,-64.926596,-153.32085,503.56
+277,New York,Old Town,Shared room,Villa,2,3,9,3.19,132,81,143,Flexible,9,-85.990958,-12.699071,508.13
+278,San Francisco,Suburb,Private room,Apartment,2,1,4,4.57,105,55,288,Flexible,6,66.441891,41.620303,386.8
+279,Austin,Midtown,Shared room,Apartment,4,1,2,4.35,219,93,13,Strict,9,9.743169,-145.783275,351.96
+280,Seattle,Midtown,Hotel room,Cottage,4,2,9,4.47,372,92,256,Moderate,9,19.57013,162.192411,506.86
+281,Austin,Beachside,Private room,Loft,5,2,2,2.8,452,84,345,Flexible,5,76.857925,172.94917,351.18
+282,Austin,Beachside,Hotel room,Loft,4,1,9,2.85,176,83,185,Moderate,2,29.721632,16.36441,364.74
+283,Austin,Midtown,Shared room,Townhouse,5,1,2,3.22,281,87,344,Flexible,10,34.353631,162.024896,381.86
+284,San Francisco,City Center,Hotel room,Condo,3,2,8,3.8,132,54,206,Moderate,2,51.654357,-115.399714,585.89
+285,Austin,Beachside,Private room,Townhouse,2,3,9,4.37,21,67,345,Moderate,4,-69.057279,-170.848553,425.14
+286,Boston,Uptown,Entire home/apt,Cottage,4,2,9,4.59,462,65,171,Flexible,10,-25.170812,-165.812567,543.39
+287,Los Angeles,Old Town,Hotel room,Townhouse,2,1,9,4.26,268,57,269,Flexible,3,84.277427,31.504493,486.34
+288,Miami,Midtown,Hotel room,Cottage,2,3,2,4.82,411,74,220,Moderate,9,76.127414,-157.808922,438.18
+289,New York,Harbor Area,Private room,Loft,2,1,4,4.35,160,81,151,Moderate,3,69.133553,165.076418,390.67
+290,New York,Beachside,Private room,Condo,3,3,7,3.27,106,75,110,Moderate,3,-8.624068,-128.904044,526.64
+291,Miami,Midtown,Hotel room,Townhouse,1,1,2,3.16,278,71,182,Strict,2,64.294732,-70.29979,253.88
+292,San Francisco,Suburb,Shared room,Apartment,4,3,1,4.24,352,80,338,Flexible,3,-81.288741,116.106409,503.2
+293,Chicago,Downtown,Hotel room,House,1,3,3,2.98,234,92,71,Strict,5,-63.266864,-101.253484,269.99
+294,San Francisco,Old Town,Private room,Villa,1,1,4,2.73,17,59,282,Strict,6,-15.485814,-92.531355,380.48
+295,New York,Midtown,Entire home/apt,Apartment,1,3,8,3.83,241,61,73,Flexible,2,-2.989428,51.231224,571.17
+296,New York,Downtown,Entire home/apt,Loft,2,2,6,4.55,116,77,354,Flexible,3,-42.568712,-80.609008,555.66
+297,Miami,Beachside,Shared room,Villa,5,1,2,2.75,285,55,214,Strict,6,-25.834199,-101.718852,404.28
+298,Austin,Downtown,Hotel room,House,2,2,9,4.48,281,69,327,Flexible,8,-60.700302,-88.496023,495.67
+299,San Francisco,Old Town,Entire home/apt,House,2,1,2,4.53,143,54,22,Moderate,4,-1.955874,-3.3669,446.15
+300,Denver,Midtown,Hotel room,Condo,1,3,5,3.71,204,72,67,Moderate,7,52.891793,167.795954,270.43
+301,Miami,Suburb,Private room,Villa,2,3,4,2.64,38,58,361,Strict,4,29.044871,119.605659,388.77
+302,Boston,City Center,Entire home/apt,Condo,1,3,7,2.94,416,78,92,Strict,9,-70.597395,-77.540305,373.06
+303,New York,Beachside,Shared room,Apartment,5,1,8,4.27,153,65,320,Flexible,9,-2.235311,-49.185645,563.93
+304,Miami,Midtown,Private room,Cottage,4,2,5,4.28,175,95,323,Flexible,9,35.576349,-12.77559,481.13
+305,San Francisco,Old Town,Shared room,Cottage,1,2,5,4.75,448,71,62,Strict,10,5.381153,172.414673,480.52
+306,New York,Beachside,Private room,Cottage,5,1,2,3.96,240,57,223,Strict,8,-19.498393,-117.939431,512.61
+307,Chicago,Uptown,Entire home/apt,Villa,4,1,8,2.81,421,69,224,Moderate,8,21.944596,-51.306083,394.57
+308,Miami,Downtown,Shared room,Cottage,3,2,2,2.8,385,63,345,Moderate,4,84.35496,82.593394,325.39
+309,Seattle,City Center,Shared room,Apartment,1,2,6,4.3,368,88,336,Flexible,2,-72.916576,167.019744,375.35
+310,New York,Old Town,Private room,Condo,1,2,8,2.96,133,86,102,Moderate,4,-19.797109,-123.956923,454.2
+311,San Francisco,Uptown,Shared room,Villa,3,2,6,3.32,45,99,214,Flexible,8,-16.810946,-98.143216,524.28
+312,Los Angeles,Harbor Area,Private room,Condo,3,1,4,3.72,49,83,191,Flexible,7,13.854116,-98.749917,416.31
+313,Denver,Midtown,Private room,Villa,1,1,4,2.56,165,60,159,Flexible,6,-62.608572,-172.464469,199.57
+314,Atlanta,Suburb,Private room,Condo,3,3,6,3.12,105,89,206,Moderate,8,-58.204255,37.481625,338.09
+315,Austin,Beachside,Private room,House,2,2,4,3.52,215,82,268,Strict,9,-38.634951,61.453107,330.56
+316,Atlanta,Downtown,Entire home/apt,Condo,4,3,8,3.2,145,80,193,Strict,3,82.056608,36.90932,371.97
+317,San Francisco,Beachside,Private room,Cottage,4,1,9,2.84,410,93,151,Moderate,6,42.139545,-154.323724,546.6
+318,Boston,City Center,Hotel room,House,4,1,1,4.32,424,83,236,Strict,4,29.104794,-155.077155,403.95
+319,Boston,Midtown,Shared room,Condo,2,3,4,4.53,71,99,87,Flexible,8,57.052384,-104.26084,393.97
+320,Los Angeles,Beachside,Hotel room,Villa,3,2,4,3.14,475,56,10,Strict,9,-67.036236,-75.493974,363.78
+321,Austin,Downtown,Entire home/apt,Villa,5,2,2,4.44,329,98,186,Moderate,3,64.679908,103.155716,415.31
+322,Seattle,Midtown,Hotel room,Villa,3,2,6,3.46,272,72,213,Strict,8,17.069888,-122.619504,413.55
+323,Los Angeles,Beachside,Shared room,Loft,1,2,3,3.77,246,95,14,Flexible,10,-29.640779,-164.126802,427.8
+324,Atlanta,Suburb,Hotel room,Apartment,4,3,7,4.64,445,56,265,Flexible,9,56.853946,-38.164497,372.86
+325,Los Angeles,Old Town,Entire home/apt,Villa,3,3,5,4.37,412,74,296,Moderate,2,54.461616,-30.098819,438.59
+326,Atlanta,Midtown,Private room,House,5,1,4,4.51,185,52,72,Moderate,4,62.227545,-17.673358,370.7
+327,New York,Old Town,Hotel room,Villa,1,2,5,2.84,69,87,51,Moderate,8,-69.206778,117.685276,416.3
+328,Boston,Harbor Area,Entire home/apt,Loft,2,2,8,2.67,461,69,127,Flexible,7,84.485024,-144.718051,368.83
+329,New York,Midtown,Entire home/apt,Cottage,2,2,3,4.73,149,83,27,Strict,6,82.732708,73.41915,478.54
+330,Denver,Suburb,Shared room,House,5,3,7,3.47,245,98,64,Strict,6,-25.655464,-58.339594,429.9
+331,Austin,Old Town,Shared room,Loft,1,2,6,3.22,261,93,16,Moderate,3,-78.139077,-68.407151,326.31
+332,Seattle,Uptown,Hotel room,Cottage,4,3,1,4.31,25,93,350,Strict,5,-59.929979,155.715525,432.85
+333,Atlanta,Downtown,Private room,Townhouse,3,2,7,4.59,422,79,137,Strict,7,88.709549,-90.551331,330.01
+334,Seattle,Uptown,Entire home/apt,Townhouse,1,2,7,4.66,139,66,318,Moderate,4,11.34233,51.311461,424.76
+335,Atlanta,Beachside,Hotel room,House,2,1,1,3.29,98,59,228,Moderate,4,-25.808076,-80.954007,190.66
+336,San Francisco,Suburb,Entire home/apt,Condo,5,2,9,4.63,397,84,253,Flexible,7,-38.123515,2.571798,610.36
+337,Los Angeles,Uptown,Entire home/apt,Apartment,5,2,6,2.6,277,69,209,Flexible,7,-43.741488,103.065441,473.32
+338,Denver,Midtown,Private room,Apartment,3,1,2,2.62,50,67,293,Flexible,9,29.547498,137.420108,196.42
+339,Boston,Beachside,Private room,Loft,5,3,5,4.06,150,94,230,Flexible,2,-14.51019,121.931007,569.87
+340,Atlanta,Beachside,Hotel room,Cottage,5,3,4,2.66,431,93,240,Strict,10,83.773926,29.585065,295.0
+341,Seattle,Uptown,Private room,Apartment,1,2,7,3.31,454,76,69,Strict,7,33.091746,-90.426126,286.93
+342,Denver,Harbor Area,Private room,Cottage,4,3,8,4.18,103,98,103,Flexible,8,52.568026,58.044018,376.7
+343,Chicago,Uptown,Hotel room,Cottage,3,2,1,3.34,433,85,203,Flexible,2,-37.306521,75.565816,287.52
+344,Chicago,Harbor Area,Private room,Loft,1,1,5,2.95,88,72,52,Moderate,4,-75.746446,-176.150884,259.58
+345,New York,Suburb,Shared room,Loft,4,1,3,3.2,140,81,329,Strict,5,-2.191889,-21.884216,386.73
+346,Boston,Downtown,Entire home/apt,Loft,1,2,1,3.64,212,59,53,Strict,7,-33.375322,123.574335,264.72
+347,San Francisco,Uptown,Entire home/apt,Apartment,1,1,3,3.69,232,60,275,Flexible,8,-53.62503,-3.748465,366.87
+348,Seattle,City Center,Entire home/apt,Townhouse,5,1,6,4.46,393,87,334,Strict,4,81.475584,-67.904841,516.97
+349,Los Angeles,Harbor Area,Entire home/apt,Loft,4,2,7,4.38,182,55,30,Moderate,4,-10.082121,133.847198,481.28
+350,Los Angeles,Uptown,Hotel room,Apartment,3,2,8,3.64,250,90,134,Moderate,2,-58.552453,-123.882949,492.13
+351,Seattle,Old Town,Entire home/apt,Loft,3,1,4,4.61,8,96,57,Strict,6,-54.242883,-105.679716,352.61
+352,Austin,Midtown,Entire home/apt,Villa,4,3,3,2.79,78,83,104,Flexible,4,-39.472246,67.454052,377.11
+353,San Francisco,City Center,Entire home/apt,Cottage,5,3,5,3.14,51,85,265,Strict,5,89.876928,-53.123061,621.52
+354,Denver,City Center,Entire home/apt,Loft,2,2,9,4.57,385,86,9,Moderate,10,-41.75793,76.686061,388.0
+355,Atlanta,Harbor Area,Shared room,House,1,2,6,3.44,408,66,252,Flexible,7,-30.815675,-123.226696,277.74
+356,Austin,Old Town,Entire home/apt,Cottage,5,3,9,4.95,268,89,294,Strict,8,28.679063,-89.183128,582.69
+357,Atlanta,Old Town,Shared room,Cottage,4,1,6,3.67,225,89,155,Flexible,8,-37.086952,-123.606944,354.85
+358,Atlanta,Beachside,Hotel room,Loft,1,3,2,4.48,50,61,157,Flexible,3,-51.155235,163.047713,258.8
+359,Austin,Harbor Area,Private room,Townhouse,3,3,5,3.51,185,70,36,Moderate,7,-61.445306,-34.054574,443.45
+360,New York,Downtown,Entire home/apt,Condo,2,3,9,3.56,33,89,118,Flexible,4,-33.71712,-58.600832,511.23
+361,Chicago,Midtown,Private room,Townhouse,3,3,8,3.46,290,68,66,Strict,7,-70.935176,-174.887224,395.45
+362,Atlanta,Suburb,Private room,Loft,4,2,7,4.3,229,52,241,Flexible,6,-86.643614,-124.769671,352.44
+363,Austin,City Center,Hotel room,Cottage,1,2,1,3.87,130,67,298,Flexible,4,54.835506,-28.391092,241.63
+364,Austin,Suburb,Private room,House,4,1,4,4.86,489,68,212,Strict,10,-65.17891,-155.338995,344.52
+365,Miami,Uptown,Shared room,Cottage,1,1,7,3.13,119,96,307,Moderate,2,49.675833,3.866159,408.4
+366,New York,Uptown,Private room,Townhouse,5,1,7,2.75,442,55,100,Moderate,4,53.557646,-16.194442,487.17
+367,Boston,Suburb,Private room,House,2,1,6,3.48,325,65,55,Strict,7,6.825515,96.180531,368.77
+368,Miami,Uptown,Private room,Apartment,5,3,8,4.04,246,57,331,Strict,3,-34.257248,57.528973,668.77
+369,Miami,Downtown,Entire home/apt,Villa,5,2,6,4.65,431,97,323,Moderate,4,-63.894108,-19.45897,607.57
+370,Seattle,Old Town,Entire home/apt,Cottage,4,2,3,3.37,191,67,238,Flexible,5,42.624919,-99.122148,443.63
+371,Chicago,Uptown,Shared room,Loft,2,1,4,4.13,496,97,230,Strict,9,18.249657,81.670884,312.47
+372,Austin,Beachside,Shared room,Apartment,1,1,3,3.38,402,92,361,Flexible,9,27.981622,74.830357,279.73
+373,Chicago,Uptown,Entire home/apt,Villa,1,3,1,4.04,322,88,91,Strict,4,-88.439564,-124.813382,272.98
+374,San Francisco,Midtown,Shared room,Loft,3,3,5,4.71,209,98,278,Moderate,8,76.953063,149.310659,561.59
+375,Seattle,Downtown,Entire home/apt,Condo,1,1,1,3.08,102,98,108,Flexible,7,-78.067766,-156.814158,259.25
+376,Boston,Midtown,Hotel room,Loft,4,2,1,3.51,328,61,316,Flexible,4,-23.974941,-160.186425,376.21
+377,Chicago,Midtown,Private room,House,5,2,2,4.98,371,94,167,Strict,4,-17.511903,-112.55385,424.83
+378,Los Angeles,Beachside,Private room,House,5,2,4,4.67,459,59,299,Flexible,8,-89.756006,147.405887,497.98
+379,Atlanta,Downtown,Shared room,Condo,5,1,6,3.91,132,56,217,Strict,6,-0.523924,7.199325,335.33
+380,San Francisco,Downtown,Entire home/apt,Apartment,2,2,8,3.79,322,95,221,Moderate,9,45.505619,103.658731,536.45
+381,New York,Harbor Area,Entire home/apt,Villa,1,3,3,3.21,138,50,160,Flexible,4,58.188358,-97.976452,417.22
+382,Boston,Downtown,Shared room,Loft,4,3,1,3.79,120,98,15,Strict,9,68.291459,-3.520089,417.7
+383,San Francisco,Downtown,Entire home/apt,House,2,1,3,4.62,93,85,277,Flexible,2,-2.210604,-51.015793,499.21
+384,Atlanta,Downtown,Hotel room,Apartment,3,3,3,4.21,451,70,56,Strict,9,23.514514,118.018299,285.07
+385,Seattle,Beachside,Private room,Condo,4,1,5,3.23,452,86,61,Strict,7,-75.686452,-171.862402,404.62
+386,Atlanta,Uptown,Shared room,Townhouse,4,2,4,3.0,128,73,362,Strict,2,-2.15312,-92.216617,273.4
+387,Miami,Harbor Area,Shared room,Cottage,4,2,4,3.16,90,74,326,Moderate,3,-62.133164,-125.073279,490.82
+388,Atlanta,Midtown,Entire home/apt,Townhouse,5,2,9,2.92,91,56,241,Flexible,10,-23.464239,129.308054,343.45
+389,Miami,Downtown,Shared room,Townhouse,4,3,7,2.74,62,91,89,Moderate,6,-30.725044,-11.684214,490.05
+390,Seattle,City Center,Hotel room,House,1,1,4,3.55,28,66,71,Strict,6,-13.762696,-34.480784,262.84
+391,Denver,Uptown,Entire home/apt,Condo,4,2,3,2.78,209,78,325,Strict,2,12.894591,-18.186206,299.23
+392,Miami,Uptown,Entire home/apt,Loft,5,1,6,2.93,11,79,29,Moderate,10,72.517796,169.892838,506.55
+393,New York,Midtown,Entire home/apt,Townhouse,4,2,3,3.87,332,56,358,Moderate,7,-18.992766,126.096262,507.62
+394,Atlanta,Beachside,Entire home/apt,Townhouse,3,3,6,2.91,296,82,287,Flexible,5,86.603615,74.292758,300.37
+395,Atlanta,Suburb,Hotel room,Villa,3,3,9,2.66,129,56,85,Strict,8,46.625049,-75.427575,312.28
+396,New York,Suburb,Entire home/apt,House,5,1,6,3.29,292,73,233,Moderate,7,2.066588,-120.53772,520.16
+397,Los Angeles,Uptown,Shared room,House,1,3,4,3.05,172,60,234,Strict,8,25.924759,151.716106,339.9
+398,Austin,Old Town,Hotel room,Loft,1,3,5,3.79,207,58,312,Strict,7,-71.599649,-27.692812,350.84
+399,Denver,Old Town,Private room,Cottage,2,1,6,2.76,431,61,364,Flexible,9,62.013876,-79.647912,268.53
+400,Boston,Midtown,Private room,Apartment,5,2,3,4.38,23,84,264,Flexible,5,14.824342,-10.468502,548.31
+401,Miami,Suburb,Shared room,Villa,4,3,8,4.77,98,53,286,Flexible,3,87.492146,150.425072,612.58
+402,New York,Uptown,Shared room,House,5,1,4,4.36,405,85,326,Moderate,10,24.557174,-40.655767,557.49
+403,Seattle,Beachside,Hotel room,Villa,2,3,8,3.83,355,77,268,Strict,3,60.140085,22.550759,449.82
+404,Miami,Suburb,Private room,House,5,3,3,4.65,138,62,185,Moderate,5,53.957294,109.067868,545.56
+405,Austin,Uptown,Private room,Villa,5,3,7,4.24,313,72,130,Moderate,10,-27.816993,-26.232289,511.39
+406,Seattle,Uptown,Private room,Condo,2,3,9,2.53,173,68,290,Flexible,3,-43.270087,-95.924951,399.96
+407,San Francisco,Downtown,Private room,Townhouse,1,1,4,3.49,28,91,276,Strict,8,-12.511155,178.029269,380.35
+408,Atlanta,Beachside,Private room,House,4,1,8,4.63,418,86,319,Strict,7,-5.896558,164.365509,387.79
+409,San Francisco,Downtown,Entire home/apt,Villa,2,1,3,3.36,495,88,350,Flexible,8,-46.784754,123.652501,376.38
+410,Miami,Midtown,Shared room,Apartment,3,3,7,2.59,142,73,179,Strict,7,71.027617,67.814597,484.15
+411,Austin,Downtown,Entire home/apt,Condo,1,3,3,4.37,315,65,289,Flexible,3,7.658615,-73.848374,267.57
+412,Denver,City Center,Private room,Condo,3,3,7,4.51,350,82,162,Moderate,10,86.119991,148.828658,386.69
+413,Miami,Downtown,Hotel room,Apartment,1,1,6,2.9,41,61,270,Moderate,4,55.8032,-80.799599,329.39
+414,New York,City Center,Hotel room,Villa,4,3,2,3.84,488,83,95,Flexible,8,10.026875,108.291418,507.07
+415,Chicago,Suburb,Private room,Loft,4,2,3,2.98,298,56,261,Moderate,10,80.46725,150.57294,318.99
+416,Miami,Old Town,Private room,Apartment,5,3,6,4.3,207,60,364,Moderate,8,0.877467,37.081383,597.26
+417,Atlanta,Harbor Area,Hotel room,Villa,3,2,4,3.18,329,80,352,Flexible,7,69.679172,109.100238,263.92
+418,Atlanta,Harbor Area,Entire home/apt,Apartment,1,3,6,3.29,432,78,287,Moderate,7,-25.533939,105.010236,278.05
+419,Miami,Uptown,Entire home/apt,Apartment,4,1,1,4.61,191,62,82,Strict,9,-21.844371,-110.46321,377.67
+420,Seattle,Harbor Area,Private room,House,2,3,1,3.69,159,80,224,Moderate,8,-14.736477,60.45281,341.22
+421,Chicago,City Center,Entire home/apt,Villa,4,2,3,4.17,63,51,222,Flexible,10,8.392616,-146.351543,338.79
+422,New York,Beachside,Hotel room,Loft,2,2,8,3.51,242,88,117,Strict,4,9.628249,2.826052,539.83
+423,Miami,Downtown,Entire home/apt,Townhouse,1,3,8,3.25,257,64,191,Strict,8,-0.648194,-121.595203,414.1
+424,Seattle,City Center,Private room,House,4,2,4,4.06,151,60,78,Moderate,7,-34.919825,-30.11418,461.11
+425,Atlanta,Beachside,Hotel room,Apartment,4,2,6,2.89,214,83,77,Strict,4,76.897164,119.873547,308.35
+426,Atlanta,Old Town,Entire home/apt,Townhouse,1,1,8,3.43,321,88,146,Flexible,9,15.945498,175.380422,223.27
+427,Austin,Harbor Area,Shared room,Cottage,4,3,7,3.02,165,53,106,Strict,7,-16.606941,-65.534461,403.58
+428,Miami,Old Town,Hotel room,Townhouse,2,3,7,4.24,30,60,270,Moderate,3,27.211853,11.504052,533.73
+429,Chicago,Harbor Area,Hotel room,Apartment,4,3,4,4.86,370,78,243,Moderate,8,48.234016,4.067289,442.16
+430,Los Angeles,Downtown,Shared room,Apartment,3,2,9,4.99,231,51,72,Strict,9,82.931056,163.584544,502.18
+431,Chicago,Midtown,Shared room,Villa,5,3,6,3.63,281,65,356,Flexible,2,-0.081151,-7.709856,472.56
+432,Atlanta,Downtown,Hotel room,Villa,2,3,3,3.13,28,88,353,Flexible,5,-69.822268,71.678234,254.71
+433,Atlanta,Suburb,Shared room,House,3,1,5,3.61,194,62,25,Moderate,9,-10.662156,151.844124,296.06
+434,San Francisco,City Center,Private room,Loft,1,1,5,4.62,333,86,209,Moderate,3,-3.785299,-45.583719,408.24
+435,Atlanta,Uptown,Private room,House,2,1,5,3.02,255,66,91,Flexible,4,71.458934,144.764006,228.78
+436,New York,Midtown,Private room,Condo,5,2,8,4.88,280,70,124,Strict,4,-18.935862,150.28424,679.17
+437,Boston,Downtown,Hotel room,Apartment,5,3,9,3.35,303,93,72,Strict,3,81.598368,155.038501,562.86
+438,Miami,Beachside,Shared room,Townhouse,1,1,9,4.96,320,68,122,Strict,4,-2.676257,-82.639373,386.55
+439,Chicago,Midtown,Shared room,Cottage,1,1,6,4.6,436,56,308,Strict,6,85.28049,-35.871986,314.32
+440,Boston,City Center,Entire home/apt,Apartment,2,1,6,4.52,322,87,183,Flexible,10,-88.524302,133.342527,363.85
+441,Seattle,Harbor Area,Entire home/apt,Apartment,4,3,9,3.29,345,57,186,Moderate,6,71.786767,-50.701743,467.3
+442,Los Angeles,Midtown,Shared room,House,1,3,4,2.52,401,62,197,Moderate,8,77.601681,36.091092,281.83
+443,New York,Harbor Area,Shared room,Cottage,4,3,6,3.46,392,86,77,Strict,2,82.983768,-137.500377,598.95
+444,Chicago,City Center,Shared room,Cottage,3,2,4,3.25,293,51,347,Flexible,2,-87.646224,-159.741004,357.86
+445,Boston,Downtown,Hotel room,Cottage,5,2,1,2.59,86,90,185,Flexible,9,-59.093849,-31.682164,400.93
+446,Los Angeles,City Center,Shared room,House,4,1,7,3.76,148,60,343,Strict,8,27.677611,28.409952,464.64
+447,San Francisco,Midtown,Entire home/apt,Apartment,5,3,6,3.51,248,73,252,Strict,6,-85.414915,-38.628319,628.17
+448,New York,Beachside,Hotel room,House,4,1,9,4.09,320,55,12,Strict,7,-78.550381,27.984877,621.7
+449,New York,Old Town,Shared room,Villa,3,3,7,4.05,404,75,298,Moderate,9,-50.205803,5.430375,493.35
+450,San Francisco,Midtown,Entire home/apt,Villa,1,3,7,2.8,282,56,75,Strict,4,2.239158,66.854603,416.29
+451,Miami,City Center,Hotel room,House,3,3,2,4.94,361,88,50,Moderate,4,8.262461,53.831675,522.55
+452,San Francisco,Old Town,Shared room,Cottage,1,2,9,2.97,378,68,274,Flexible,3,-83.832998,-27.271547,523.06
+453,New York,City Center,Shared room,Apartment,1,2,9,3.61,197,55,148,Flexible,8,-59.333895,-27.001713,499.58
+454,New York,Beachside,Shared room,House,5,3,6,3.72,43,92,218,Moderate,4,-0.052979,-129.319798,569.34
+455,Boston,City Center,Hotel room,House,3,1,3,4.53,355,78,121,Moderate,10,16.909312,4.765886,441.35
+456,Atlanta,Downtown,Entire home/apt,House,4,3,1,2.75,27,92,210,Moderate,7,-63.287695,31.384486,297.2
+457,Los Angeles,Uptown,Entire home/apt,Condo,3,3,4,3.57,428,88,279,Moderate,3,-18.208546,-8.463817,459.86
+458,San Francisco,Harbor Area,Private room,Villa,5,1,3,4.07,16,51,25,Strict,7,72.792259,-62.745359,440.74
+459,Los Angeles,Harbor Area,Shared room,Townhouse,1,3,1,3.04,126,68,172,Flexible,7,89.801872,79.793476,304.47
+460,San Francisco,Midtown,Private room,Cottage,5,1,3,4.07,378,53,155,Strict,5,87.698602,-153.121808,558.13
+461,Seattle,Uptown,Private room,Loft,2,2,4,4.81,167,55,237,Moderate,5,68.701412,149.198533,383.16
+462,New York,City Center,Entire home/apt,Townhouse,2,2,8,4.99,243,98,81,Strict,7,-18.961184,-172.568362,572.91
+463,Atlanta,Beachside,Hotel room,Cottage,4,1,9,2.58,386,86,355,Strict,3,33.583373,166.446048,305.61
+464,Boston,Midtown,Hotel room,Loft,5,2,3,3.09,75,77,272,Flexible,2,-15.013399,-13.551984,412.35
+465,Atlanta,City Center,Entire home/apt,Condo,4,2,6,3.28,230,79,67,Strict,6,26.734865,-31.43882,352.12
+466,Atlanta,Old Town,Hotel room,House,4,1,5,3.5,203,56,43,Flexible,2,-34.302155,-87.680154,299.64
+467,Atlanta,Suburb,Private room,Condo,2,2,6,3.11,449,58,60,Moderate,4,19.116406,-176.374391,243.57
+468,Los Angeles,City Center,Shared room,Condo,4,3,4,3.01,247,74,122,Strict,9,4.276529,-81.075505,400.19
+469,San Francisco,Uptown,Entire home/apt,Townhouse,2,3,6,4.89,301,82,348,Moderate,5,-85.593552,-140.616027,547.64
+470,Denver,Midtown,Shared room,Apartment,1,1,7,4.8,213,50,195,Flexible,5,52.326523,57.535503,291.47
+471,Seattle,Uptown,Hotel room,Townhouse,5,2,9,2.62,214,55,329,Moderate,3,-87.85839,-65.13301,485.9
+472,Chicago,Midtown,Shared room,Villa,4,3,7,3.35,157,67,322,Moderate,9,-37.23193,96.184558,422.71
+473,Atlanta,City Center,Hotel room,Loft,2,3,6,3.51,68,59,110,Flexible,3,-88.933668,-105.510173,306.17
+474,Miami,Downtown,Hotel room,House,3,2,1,3.1,392,77,257,Moderate,3,-22.283746,144.084549,340.34
+475,Los Angeles,Old Town,Private room,Townhouse,4,2,2,4.07,84,60,88,Moderate,6,-78.631105,8.273345,457.86
+476,Boston,City Center,Hotel room,Loft,1,3,1,4.1,266,82,197,Moderate,2,74.431974,-138.777769,384.41
+477,Chicago,Harbor Area,Private room,Cottage,1,3,9,4.63,68,50,281,Strict,2,-15.177727,-35.695715,390.72
+478,Denver,Uptown,Private room,Loft,3,1,9,4.35,98,62,199,Moderate,5,-7.290761,-105.566211,347.17
+479,Miami,Suburb,Private room,Cottage,2,1,7,3.86,346,86,98,Flexible,2,-27.026958,-108.113247,445.58
+480,Denver,Suburb,Entire home/apt,Townhouse,4,3,2,4.13,496,69,26,Strict,7,22.951108,2.293106,394.02
+481,Chicago,Beachside,Entire home/apt,Villa,2,1,6,3.18,449,50,88,Strict,2,51.193461,61.881126,270.83
+482,Atlanta,Midtown,Hotel room,Townhouse,1,3,4,3.98,215,52,145,Flexible,4,26.666414,148.182554,252.09
+483,Miami,Uptown,Private room,Cottage,2,3,1,3.72,414,67,181,Moderate,2,44.677281,0.778324,383.94
+484,Denver,Beachside,Entire home/apt,Loft,1,1,1,2.83,160,90,256,Strict,6,73.075259,167.701959,198.7
+485,Boston,Uptown,Private room,Loft,2,1,5,3.11,422,63,188,Strict,5,65.438376,158.988547,286.94
+486,San Francisco,Harbor Area,Shared room,Cottage,3,2,2,3.23,93,80,239,Strict,10,31.330521,131.422511,484.25
+487,New York,Midtown,Shared room,Condo,5,2,4,4.81,173,76,358,Moderate,10,-51.365167,-0.008185,636.65
+488,San Francisco,City Center,Shared room,Villa,3,2,1,3.08,164,66,195,Strict,5,24.786513,-129.27458,389.7
+489,Chicago,City Center,Hotel room,Apartment,3,3,4,3.22,114,95,296,Flexible,7,1.094957,-101.554391,414.87
+490,Los Angeles,Suburb,Private room,House,5,1,6,3.42,219,78,164,Moderate,4,39.099462,53.161201,516.57
+491,New York,City Center,Shared room,Loft,5,3,4,4.16,443,85,306,Flexible,7,59.927697,-28.168207,631.78
+492,Seattle,City Center,Entire home/apt,House,4,1,1,2.8,30,86,270,Flexible,8,43.689869,-127.151413,356.03
+493,Boston,Harbor Area,Shared room,Apartment,4,3,7,4.88,10,75,7,Strict,6,62.381011,-7.562184,604.28
+494,Seattle,Downtown,Shared room,Townhouse,3,2,2,4.66,342,66,37,Strict,3,-78.504053,-173.725004,393.99
+495,Miami,Suburb,Shared room,House,3,2,9,3.94,376,71,113,Strict,4,-84.308393,84.202334,532.41
+496,New York,Beachside,Hotel room,Apartment,1,2,3,4.19,129,74,338,Flexible,3,-43.469898,-153.510734,365.9
+497,Seattle,Old Town,Entire home/apt,Cottage,1,3,8,2.54,487,51,55,Moderate,9,72.119895,46.480903,348.08
+498,Seattle,Downtown,Private room,Condo,4,1,8,3.35,104,71,358,Strict,4,58.258665,105.483711,434.45
+499,Denver,Beachside,Entire home/apt,Loft,4,1,3,4.49,26,54,137,Strict,8,32.890914,-132.248205,328.75
+500,San Francisco,Midtown,Private room,Apartment,1,2,4,2.69,226,53,101,Flexible,7,36.13656,6.709929,426.58
+501,Denver,Downtown,Hotel room,House,1,2,2,3.21,1,85,333,Moderate,4,40.800684,100.464305,176.04
+502,New York,Harbor Area,Hotel room,Loft,2,2,4,3.96,358,55,176,Flexible,5,79.668486,-86.171956,488.52
+503,New York,Beachside,Hotel room,Condo,2,2,9,3.14,100,70,168,Strict,9,59.794407,-121.350027,459.47
+504,Chicago,Midtown,Hotel room,Cottage,1,1,2,4.83,20,62,338,Flexible,3,22.21027,-58.74512,272.82
+505,Denver,Suburb,Private room,Townhouse,2,3,3,2.83,57,86,285,Strict,6,29.828778,19.691704,251.83
+506,Austin,Old Town,Shared room,Loft,5,3,4,4.49,388,74,260,Moderate,8,-51.526753,27.100654,520.43
+507,San Francisco,Midtown,Private room,Townhouse,4,3,5,3.77,179,75,222,Flexible,10,28.317389,-132.88452,563.83
+508,New York,City Center,Entire home/apt,Apartment,4,3,1,4.38,428,88,198,Strict,9,-13.557778,-15.275215,528.71
+509,Chicago,Uptown,Hotel room,Condo,1,2,7,3.28,340,69,210,Strict,5,-62.466863,-83.41841,325.47
+510,Denver,Midtown,Hotel room,House,3,2,7,3.79,348,82,286,Strict,2,55.152507,123.128719,323.7
+511,San Francisco,Midtown,Entire home/apt,Condo,1,2,9,4.64,19,63,179,Strict,2,1.844478,-67.112952,551.69
+512,Denver,Old Town,Private room,Condo,2,3,4,3.67,254,85,249,Flexible,4,85.936508,121.933629,335.2
+513,Seattle,Uptown,Shared room,Villa,3,2,6,3.4,316,66,230,Strict,10,-39.297716,-25.716739,381.2
+514,Chicago,City Center,Shared room,Condo,2,2,2,3.84,37,70,22,Flexible,10,-3.47938,81.570876,311.45
+515,San Francisco,Beachside,Entire home/apt,Condo,5,1,4,4.29,147,95,47,Strict,2,-9.360818,3.621682,560.74
+516,Atlanta,Beachside,Shared room,Loft,2,1,2,3.61,497,65,108,Flexible,3,-68.259686,43.906545,247.53
+517,Miami,Midtown,Private room,House,5,2,5,4.85,24,95,295,Flexible,8,-13.29925,-37.671656,638.69
+518,Miami,Harbor Area,Private room,Loft,5,1,7,3.24,385,65,5,Strict,7,-38.240378,96.554436,445.98
+519,San Francisco,Harbor Area,Entire home/apt,Loft,2,1,1,3.69,120,69,37,Strict,9,-61.142315,-26.931822,318.04
+520,Denver,Uptown,Private room,Apartment,2,2,7,4.39,415,78,168,Strict,3,-39.211995,-15.313807,334.54
+521,Chicago,Uptown,Hotel room,Loft,5,2,6,4.22,25,77,355,Strict,2,-48.014696,6.364321,471.26
+522,Miami,City Center,Entire home/apt,Villa,3,2,6,4.66,453,57,282,Moderate,8,42.133236,119.456683,531.84
+523,Chicago,Old Town,Private room,Villa,5,2,8,4.99,168,73,202,Strict,7,-84.460468,57.376414,451.3
+524,Miami,Suburb,Entire home/apt,Townhouse,4,3,8,3.57,322,52,324,Strict,4,21.143295,-54.302261,583.15
+525,Seattle,Beachside,Shared room,Apartment,5,3,6,2.78,224,74,312,Strict,4,46.919042,61.315068,440.44
+526,Denver,Old Town,Private room,Townhouse,3,2,3,2.58,0,68,272,Flexible,3,-3.469778,51.273566,286.45
+527,Seattle,Downtown,Hotel room,Townhouse,4,1,5,4.32,306,82,243,Strict,10,77.681696,155.166939,452.97
+528,Miami,Beachside,Private room,Cottage,1,2,2,4.69,260,51,326,Flexible,4,37.418525,122.909917,346.78
+529,Atlanta,Old Town,Entire home/apt,House,1,2,5,3.05,12,64,46,Flexible,7,44.626257,53.080893,232.46
+530,Atlanta,Beachside,Entire home/apt,House,3,1,9,2.9,402,71,248,Flexible,10,-54.551972,-57.05744,329.0
+531,Seattle,Suburb,Private room,Loft,5,3,1,2.66,395,59,78,Flexible,3,49.913204,100.647522,329.34
+532,Atlanta,Downtown,Hotel room,Loft,2,2,5,4.56,47,67,109,Moderate,4,59.777052,27.074986,304.39
+533,Miami,Harbor Area,Hotel room,Cottage,3,2,6,3.28,408,71,12,Strict,8,-24.97205,174.697196,419.84
+534,San Francisco,Harbor Area,Hotel room,Loft,4,3,7,3.5,312,95,364,Flexible,2,-51.594648,-90.897794,611.18
+535,Seattle,Suburb,Entire home/apt,House,4,3,9,3.76,370,98,89,Strict,10,-20.690878,-151.323897,536.93
+536,Los Angeles,City Center,Private room,Townhouse,1,1,6,4.6,290,76,341,Flexible,6,43.129434,-154.838948,460.58
+537,Denver,Downtown,Shared room,Condo,4,3,5,4.13,331,62,347,Moderate,3,-14.824979,50.41094,376.71
+538,Atlanta,Midtown,Entire home/apt,Villa,3,3,7,4.04,93,82,279,Flexible,10,42.597338,158.133682,377.86
+539,Atlanta,Old Town,Hotel room,Condo,4,3,1,2.94,260,54,220,Strict,5,-69.558383,-179.304511,249.8
+540,New York,Downtown,Private room,Condo,3,1,5,3.78,481,75,72,Strict,4,55.082108,81.277577,444.78
+541,Austin,City Center,Hotel room,House,2,3,2,4.29,277,62,233,Moderate,4,-44.422653,56.543466,364.27
+542,Seattle,City Center,Shared room,Condo,1,3,4,4.93,358,76,259,Strict,10,-45.192782,83.629509,404.83
+543,Boston,Suburb,Hotel room,Cottage,4,1,7,3.0,204,63,112,Strict,7,16.268574,-52.054054,431.57
+544,Atlanta,Beachside,Hotel room,Apartment,3,3,5,2.52,184,73,45,Flexible,5,-77.378752,115.37872,273.01
+545,Denver,Downtown,Shared room,Loft,5,3,6,2.69,174,52,273,Strict,6,-85.266409,-163.905505,400.94
+546,Los Angeles,Old Town,Private room,Apartment,1,1,2,3.44,437,96,42,Flexible,4,-43.01484,91.955196,279.73
+547,Atlanta,Downtown,Entire home/apt,Townhouse,2,2,3,4.55,386,98,207,Moderate,3,6.852159,-83.854101,256.45
+548,Los Angeles,Uptown,Private room,Villa,3,1,7,2.52,379,79,348,Strict,8,73.37095,-8.338401,366.08
+549,Miami,Beachside,Shared room,Loft,2,3,2,3.64,308,84,102,Flexible,6,62.358332,116.149058,421.26
+550,Miami,Old Town,Hotel room,Condo,2,3,6,3.32,467,97,123,Strict,4,-1.719637,-82.310747,531.81
+551,Austin,Harbor Area,Private room,Villa,4,3,5,2.63,414,63,9,Flexible,3,-83.330641,-113.325296,373.2
+552,San Francisco,Old Town,Entire home/apt,Loft,4,1,1,3.63,68,61,328,Moderate,9,6.345492,65.272747,522.16
+553,Boston,Midtown,Shared room,Cottage,3,3,4,3.14,471,77,186,Flexible,3,36.863208,12.022161,417.57
+554,New York,Suburb,Private room,Cottage,5,3,2,3.38,103,93,30,Strict,2,-28.950384,5.185393,509.77
+555,Austin,Midtown,Entire home/apt,Cottage,3,1,4,4.26,245,78,155,Flexible,6,-70.008605,-87.562974,337.53
+556,Chicago,Old Town,Shared room,Cottage,5,2,1,3.8,160,92,59,Strict,3,-39.857768,-167.44309,351.31
+557,New York,Beachside,Entire home/apt,Condo,2,2,2,2.81,199,66,248,Moderate,4,48.885996,-32.30311,327.11
+558,Seattle,Downtown,Shared room,Apartment,1,3,8,4.9,215,89,269,Flexible,5,-26.77611,-141.638587,434.51
+559,Denver,Harbor Area,Hotel room,Loft,3,1,6,4.09,433,98,216,Strict,6,56.156668,146.156094,292.81
+560,Chicago,Downtown,Private room,Condo,3,3,2,4.41,211,70,1,Strict,2,-32.486139,-165.149884,399.84
+561,Chicago,Beachside,Entire home/apt,Cottage,5,1,6,2.7,15,72,23,Strict,9,-60.560093,-24.605692,391.28
+562,Austin,Old Town,Shared room,Townhouse,2,1,9,2.62,497,69,205,Flexible,7,-11.547295,-161.19159,353.96
+563,San Francisco,City Center,Entire home/apt,Apartment,2,2,7,2.55,371,60,319,Flexible,5,-8.590588,-145.604205,450.05
+564,Austin,Downtown,Entire home/apt,Townhouse,5,2,9,2.97,331,83,198,Flexible,7,-87.100521,57.192,465.41
+565,Seattle,City Center,Private room,Villa,2,1,5,3.54,204,59,355,Moderate,8,-68.931887,52.960054,320.79
+566,Atlanta,Downtown,Hotel room,Townhouse,4,3,7,4.84,364,59,113,Strict,10,-56.713317,-168.10121,362.15
+567,Atlanta,Downtown,Entire home/apt,Villa,1,2,7,3.64,489,92,279,Strict,8,-69.554283,-179.592669,291.0
+568,San Francisco,Harbor Area,Shared room,Villa,3,3,3,3.23,38,55,154,Moderate,3,-28.525306,-151.625492,467.41
+569,Seattle,Suburb,Shared room,Cottage,1,2,7,3.9,88,85,164,Moderate,2,83.632114,94.679603,393.77
+570,San Francisco,Suburb,Hotel room,Villa,3,2,1,2.78,429,73,221,Flexible,6,1.660057,30.44753,329.75
+571,Los Angeles,Uptown,Shared room,House,4,3,9,4.02,255,61,90,Flexible,8,22.960084,-166.277432,552.47
+572,Atlanta,Midtown,Hotel room,Loft,2,2,6,3.92,479,92,166,Flexible,3,-25.850434,-4.285074,268.55
+573,Chicago,Beachside,Shared room,Loft,5,2,5,4.48,253,72,206,Flexible,2,-31.772203,76.330569,440.55
+574,Boston,Beachside,Private room,Cottage,4,3,7,4.97,215,76,281,Flexible,6,-85.833581,132.822502,602.81
+575,Denver,Beachside,Entire home/apt,House,1,2,5,3.13,367,94,64,Flexible,4,0.060058,156.253137,296.21
+576,Seattle,Uptown,Private room,Townhouse,5,2,5,3.77,302,86,3,Moderate,7,-2.950379,-62.121397,450.41
+577,New York,Suburb,Entire home/apt,Condo,2,2,7,4.77,171,55,156,Moderate,6,-61.590469,-131.100326,489.95
+578,San Francisco,Old Town,Entire home/apt,Townhouse,4,3,7,4.46,136,50,248,Moderate,7,47.57832,-94.706669,632.94
+579,Denver,City Center,Entire home/apt,Condo,5,1,3,3.72,487,55,256,Strict,7,-1.318621,99.421737,311.42
+580,New York,Harbor Area,Private room,Villa,4,3,3,4.86,497,99,234,Strict,4,-28.981085,169.734317,585.04
+581,Denver,City Center,Entire home/apt,Apartment,4,1,3,2.64,470,71,305,Flexible,2,-63.556396,-12.098298,240.05
+582,Boston,Old Town,Private room,Condo,2,2,6,4.83,383,90,73,Moderate,9,9.388949,-70.072843,407.46
+583,New York,Harbor Area,Hotel room,Apartment,3,1,6,2.63,177,73,186,Strict,3,45.507065,-25.49139,416.02
+584,Austin,Uptown,Shared room,Loft,5,3,3,3.87,76,74,61,Strict,6,-39.240117,-70.267268,453.15
+585,Miami,Old Town,Shared room,Apartment,2,3,3,4.73,187,64,336,Moderate,3,-50.617017,-87.664492,423.47
+586,Austin,Beachside,Entire home/apt,Loft,4,2,8,3.16,479,75,163,Strict,10,3.948294,33.750271,452.88
+587,Atlanta,Midtown,Private room,House,2,1,8,3.68,497,57,55,Strict,2,-62.038206,-174.335047,297.01
+588,Miami,Downtown,Shared room,House,3,2,7,3.31,14,73,110,Moderate,5,29.99041,-86.56119,528.68
+589,Austin,City Center,Private room,Cottage,5,2,4,4.88,291,97,217,Strict,6,18.961853,58.097548,441.92
+590,Miami,Suburb,Private room,Cottage,3,3,4,4.56,496,87,239,Moderate,3,-74.325231,-168.457429,451.47
+591,Miami,Suburb,Entire home/apt,Villa,1,1,3,4.27,318,55,20,Strict,7,-83.426332,-150.047346,372.68
+592,Chicago,Uptown,Shared room,Condo,5,1,5,3.97,324,84,140,Moderate,8,21.651957,-74.377388,400.72
+593,San Francisco,Harbor Area,Entire home/apt,Villa,3,1,3,4.55,213,91,264,Strict,6,-37.027121,136.009727,497.61
+594,San Francisco,Suburb,Entire home/apt,Loft,4,1,8,3.48,207,50,138,Strict,3,-74.439764,95.359018,524.48
+595,Chicago,Beachside,Shared room,Villa,5,2,7,3.62,168,95,69,Moderate,5,46.697167,-172.023613,449.15
+596,Denver,City Center,Shared room,Apartment,5,2,3,4.33,329,85,117,Strict,7,-33.472079,0.616614,352.9
+597,Los Angeles,Old Town,Hotel room,Loft,2,3,9,3.39,279,61,197,Moderate,5,-7.272081,-81.112502,479.83
+598,Denver,Beachside,Hotel room,Cottage,4,2,5,2.66,465,87,204,Moderate,5,-47.373673,53.512437,307.21
+599,New York,Uptown,Private room,House,1,2,9,2.69,304,60,213,Strict,5,22.917074,79.759398,450.61
+600,New York,Beachside,Shared room,Cottage,3,3,7,2.79,145,61,55,Flexible,5,-35.732085,130.630528,462.51
+601,Miami,Old Town,Hotel room,Condo,2,3,7,4.67,262,91,286,Strict,8,84.243773,-8.850155,545.43
+602,Austin,Midtown,Private room,Loft,3,3,6,3.68,3,99,292,Flexible,6,36.530559,178.002032,434.07
+603,Austin,Uptown,Private room,Loft,1,2,2,4.28,89,88,174,Flexible,8,-65.38999,172.794999,305.37
+604,San Francisco,Midtown,Private room,Apartment,1,2,9,3.48,452,56,346,Strict,4,-14.994929,137.580021,561.41
+605,Seattle,Downtown,Hotel room,Condo,5,3,6,3.15,59,60,127,Flexible,9,-20.624202,26.953018,485.84
+606,Denver,Midtown,Shared room,House,1,3,8,3.37,310,85,324,Moderate,2,6.16448,-36.717682,343.35
+607,Atlanta,Downtown,Entire home/apt,Townhouse,3,3,1,4.49,15,80,291,Moderate,6,61.547521,-48.820928,293.81
+608,Boston,Downtown,Private room,Loft,4,2,5,4.06,226,82,287,Flexible,9,15.015963,-175.63509,506.06
+609,Austin,Midtown,Hotel room,Loft,4,2,1,4.84,473,62,225,Moderate,9,-78.919798,-90.297181,345.15
+610,Boston,Uptown,Hotel room,Apartment,5,1,8,4.2,465,67,63,Strict,4,27.974825,78.770965,539.77
+611,Miami,Harbor Area,Entire home/apt,Villa,3,2,8,3.93,28,90,47,Moderate,2,-88.512246,37.307556,484.01
+612,Boston,Old Town,Entire home/apt,House,3,2,1,4.03,150,73,201,Flexible,2,50.392883,149.911988,385.37
+613,Atlanta,Beachside,Hotel room,Cottage,1,2,9,4.86,244,58,336,Strict,9,29.994493,-161.991984,335.48
+614,Chicago,Beachside,Shared room,Condo,3,3,2,4.47,269,80,59,Moderate,3,-34.418581,-124.100423,378.17
+615,Atlanta,Old Town,Entire home/apt,Loft,2,2,9,2.56,78,90,256,Strict,4,-37.360475,104.127764,300.08
+616,Boston,City Center,Hotel room,Loft,1,3,1,3.84,432,59,64,Flexible,5,53.689139,-50.937253,320.26
+617,Atlanta,City Center,Entire home/apt,Cottage,2,1,9,4.22,288,51,238,Moderate,4,51.000605,-137.39568,297.58
+618,Los Angeles,Downtown,Shared room,House,5,1,4,4.37,152,87,288,Strict,6,-26.585576,178.722182,409.76
+619,Miami,Downtown,Private room,Villa,4,3,9,3.03,276,64,37,Strict,6,-36.189409,103.410109,558.5
+620,Denver,Uptown,Entire home/apt,Loft,5,3,7,4.67,400,52,24,Moderate,10,10.768462,-32.853227,467.65
+621,Chicago,Suburb,Shared room,House,4,3,6,4.89,278,92,58,Strict,8,-88.494181,116.405092,453.2
+622,Austin,Midtown,Hotel room,Cottage,5,2,5,3.09,56,80,356,Strict,5,-75.119933,65.017393,410.98
+623,New York,Downtown,Entire home/apt,Apartment,3,1,9,4.71,490,55,296,Flexible,8,-67.289474,104.390913,578.0
+624,Denver,Beachside,Entire home/apt,Villa,2,3,2,2.74,464,52,157,Flexible,7,-56.625873,113.474296,241.13
+625,New York,Uptown,Hotel room,Condo,4,2,2,2.64,185,60,56,Flexible,6,2.163263,-149.497674,424.62
+626,Miami,Midtown,Private room,Loft,1,1,9,2.82,397,64,47,Flexible,2,88.603545,44.27024,380.46
+627,Chicago,Uptown,Hotel room,House,2,2,3,2.64,92,94,327,Flexible,6,27.470412,-177.557201,243.65
+628,San Francisco,Midtown,Entire home/apt,Apartment,1,1,8,4.61,275,77,55,Flexible,9,-78.966217,-164.355751,506.24
+629,Austin,Midtown,Hotel room,Condo,2,2,9,2.65,157,59,64,Moderate,9,4.604287,145.432803,364.29
+630,Los Angeles,Old Town,Shared room,Townhouse,2,1,8,3.18,274,87,267,Flexible,7,-0.603862,9.92294,465.13
+631,San Francisco,Downtown,Hotel room,House,5,1,4,2.76,180,96,68,Strict,2,-64.049793,84.924715,470.22
+632,Miami,Harbor Area,Entire home/apt,House,4,2,1,3.24,358,99,215,Moderate,7,75.649026,121.860357,404.11
+633,Denver,Uptown,Hotel room,Condo,4,3,4,2.73,439,99,88,Strict,4,-10.662255,161.851236,321.62
+634,Los Angeles,Harbor Area,Private room,Apartment,2,1,9,4.17,76,56,280,Flexible,9,89.020645,132.967025,441.43
+635,Atlanta,Uptown,Hotel room,Townhouse,3,3,2,2.83,465,64,256,Flexible,3,-14.386987,-6.007878,266.65
+636,Boston,Old Town,Private room,Cottage,3,2,3,4.63,150,67,159,Strict,6,19.432386,-59.050689,507.53
+637,Los Angeles,Beachside,Shared room,Apartment,1,3,8,4.54,445,67,233,Strict,7,-71.142743,-124.382435,462.05
+638,Miami,Harbor Area,Private room,Villa,1,3,6,2.53,237,90,130,Strict,3,-8.238992,-35.884266,403.87
+639,Seattle,Beachside,Hotel room,Loft,5,3,8,4.74,288,73,48,Moderate,10,-47.022139,-48.062312,513.83
+640,Boston,City Center,Entire home/apt,Condo,2,3,7,2.57,230,51,146,Flexible,2,60.401664,21.446943,394.37
+641,New York,Downtown,Private room,Cottage,1,3,5,3.1,487,89,315,Strict,2,51.105525,59.583387,472.51
+642,Austin,Downtown,Shared room,Townhouse,1,1,9,2.58,17,69,1,Flexible,2,58.3524,172.197172,315.42
+643,New York,Suburb,Private room,Condo,2,1,4,3.34,72,83,328,Strict,3,40.249699,82.219027,408.32
+644,Los Angeles,Old Town,Private room,Condo,5,1,6,3.78,416,92,144,Flexible,8,59.88298,51.749472,473.99
+645,New York,Beachside,Private room,Apartment,1,2,2,4.49,415,75,60,Moderate,3,-53.850825,-59.366724,404.82
+646,Miami,Midtown,Shared room,Loft,5,3,2,3.34,188,56,272,Flexible,7,-8.63212,-167.578604,538.48
+647,Atlanta,Uptown,Hotel room,Villa,4,1,2,4.26,437,87,48,Strict,5,34.532438,-76.274954,260.7
+648,Denver,Downtown,Private room,House,5,2,7,2.97,16,79,331,Flexible,9,24.73065,96.641244,427.06
+649,Austin,Harbor Area,Private room,House,3,1,2,4.38,18,91,130,Moderate,8,38.943807,-106.102101,297.75
+650,New York,Uptown,Entire home/apt,Condo,3,1,2,3.09,218,54,42,Moderate,4,-49.633491,76.38775,356.29
+651,New York,Uptown,Shared room,Loft,5,3,9,2.86,325,60,56,Flexible,5,-72.281752,28.720743,586.41
+652,Los Angeles,Suburb,Private room,Townhouse,3,2,7,2.96,482,50,49,Strict,10,75.025184,-118.131527,421.68
+653,Denver,Beachside,Shared room,Townhouse,4,3,3,2.96,119,83,177,Moderate,6,10.830941,-85.81507,300.39
+654,San Francisco,Downtown,Private room,Cottage,2,3,3,3.78,100,50,292,Moderate,7,-62.311334,-1.330703,429.41
+655,New York,Uptown,Hotel room,Apartment,3,1,7,4.61,33,68,45,Flexible,10,52.818585,-29.385106,491.97
+656,Miami,Downtown,Hotel room,Loft,3,3,5,2.7,83,51,169,Moderate,3,74.687389,100.282985,459.82
+657,Seattle,Midtown,Private room,Loft,5,2,6,4.27,408,70,270,Moderate,7,-59.478567,84.385671,493.49
+658,Austin,Suburb,Hotel room,Apartment,4,3,8,4.14,195,69,335,Strict,2,57.134242,26.846821,469.57
+659,New York,Midtown,Private room,Townhouse,2,3,9,4.68,329,72,138,Strict,10,77.980511,116.018896,602.72
+660,Miami,Downtown,Hotel room,Townhouse,5,3,1,3.11,201,70,246,Strict,7,78.905088,22.561035,407.76
+661,Miami,City Center,Entire home/apt,Townhouse,5,1,3,3.63,343,73,147,Flexible,8,74.548163,167.180132,474.6
+662,Austin,Harbor Area,Entire home/apt,Condo,4,2,7,4.81,340,53,229,Moderate,9,8.355782,-101.799324,467.14
+663,San Francisco,Downtown,Entire home/apt,Loft,2,1,6,4.15,10,61,279,Flexible,3,-25.881963,77.087518,481.82
+664,Miami,Beachside,Shared room,House,4,1,7,3.47,346,71,124,Moderate,7,-88.690895,-46.820112,508.7
+665,Seattle,Uptown,Shared room,Apartment,2,1,8,2.83,399,69,191,Moderate,9,-79.035799,-79.57217,413.28
+666,Miami,Uptown,Entire home/apt,Townhouse,4,1,6,3.16,217,67,79,Moderate,9,-12.808977,-115.060509,471.17
+667,Miami,Midtown,Shared room,Cottage,5,1,3,3.95,444,50,93,Strict,2,-18.121294,18.901251,467.08
+668,Miami,Harbor Area,Hotel room,Townhouse,5,2,2,4.3,252,79,225,Flexible,4,-56.751496,-102.431004,461.97
+669,Atlanta,Suburb,Private room,Townhouse,1,3,7,2.81,221,82,64,Flexible,9,-18.813595,-107.873693,215.2
+670,Atlanta,City Center,Private room,Villa,3,1,1,4.0,382,73,87,Moderate,5,-58.562988,176.591486,247.34
+671,San Francisco,Old Town,Private room,Condo,4,1,3,3.88,368,63,87,Flexible,10,62.782425,108.62907,442.9
+672,New York,Harbor Area,Entire home/apt,Apartment,1,2,4,3.78,79,85,200,Strict,10,-36.324922,89.379655,309.95
+673,Miami,Uptown,Shared room,Villa,3,2,1,4.23,6,54,213,Flexible,9,17.741583,105.861825,398.03
+674,Denver,Beachside,Hotel room,Villa,4,3,5,4.59,271,60,203,Moderate,3,0.511751,168.812235,396.65
+675,New York,Harbor Area,Hotel room,Cottage,2,2,3,3.31,226,73,88,Strict,2,-80.661226,26.379608,422.88
+676,San Francisco,Midtown,Entire home/apt,Loft,3,3,2,4.72,15,80,60,Strict,2,79.60207,-100.712204,574.23
+677,Chicago,Midtown,Hotel room,Cottage,5,1,3,2.9,423,62,270,Moderate,6,4.900676,130.395471,352.58
+678,New York,Old Town,Hotel room,Loft,1,1,8,2.93,11,65,93,Flexible,10,-31.489624,87.383063,437.04
+679,New York,Beachside,Hotel room,Loft,3,3,6,3.17,290,73,306,Moderate,3,-61.537217,-30.849008,453.94
+680,Boston,Suburb,Hotel room,Apartment,3,2,7,2.8,240,62,26,Flexible,6,-29.065206,-9.514981,421.13
+681,Los Angeles,Harbor Area,Shared room,Townhouse,5,3,6,3.08,20,73,213,Flexible,3,-86.307911,-31.949137,529.43
+682,Boston,Beachside,Hotel room,Apartment,4,2,6,2.77,177,75,73,Strict,5,-24.559532,154.779178,444.28
+683,Seattle,Suburb,Private room,Condo,2,1,3,4.55,426,51,60,Moderate,6,5.667467,-56.32862,346.12
+684,Atlanta,Beachside,Entire home/apt,Loft,5,2,8,2.85,227,65,185,Strict,4,66.935924,166.85434,350.14
+685,Atlanta,Beachside,Shared room,Villa,2,3,7,4.37,495,87,30,Moderate,3,33.727395,147.697838,338.65
+686,Los Angeles,Downtown,Hotel room,Townhouse,4,3,7,2.62,272,95,218,Moderate,4,-69.915184,46.987611,477.54
+687,Austin,Midtown,Shared room,House,3,1,6,4.87,287,50,11,Strict,3,-63.405662,28.735838,384.75
+688,Austin,Harbor Area,Hotel room,Condo,2,2,5,4.28,296,98,301,Moderate,10,-12.937794,-46.767859,325.84
+689,San Francisco,Beachside,Private room,Apartment,1,2,8,2.52,133,60,31,Moderate,7,-54.772605,-173.39818,427.35
+690,Los Angeles,Harbor Area,Entire home/apt,Cottage,1,2,5,4.41,471,84,159,Flexible,3,-84.98704,-134.055653,399.68
+691,New York,Old Town,Hotel room,Condo,5,1,9,3.79,282,92,236,Moderate,5,54.902678,91.523276,611.79
+692,Austin,Beachside,Hotel room,Condo,4,2,9,4.45,403,78,226,Moderate,5,-86.485937,-10.245554,515.35
+693,Miami,Uptown,Hotel room,Townhouse,5,3,1,3.81,152,86,180,Strict,3,59.524129,-126.058272,529.49
+694,Denver,Midtown,Hotel room,Condo,5,2,6,4.1,65,66,316,Strict,9,-64.061287,-84.974093,392.42
+695,New York,Uptown,Entire home/apt,Condo,5,1,7,4.47,136,88,45,Moderate,7,85.442114,161.221284,600.5
+696,Seattle,Harbor Area,Entire home/apt,House,1,2,3,3.51,91,91,340,Flexible,7,18.697304,-47.832179,327.47
+697,Miami,Harbor Area,Private room,Cottage,1,2,7,2.51,436,77,79,Flexible,5,42.296935,146.7655,389.27
+698,Miami,Midtown,Entire home/apt,Cottage,5,3,7,4.62,316,78,134,Strict,10,-70.112947,-70.3311,611.06
+699,Los Angeles,Harbor Area,Hotel room,Cottage,1,2,2,3.45,421,92,259,Moderate,9,65.178733,15.559234,333.81
+700,San Francisco,Uptown,Private room,Loft,4,3,7,3.74,258,52,307,Moderate,3,61.054622,-172.62825,609.47
+701,Seattle,Beachside,Private room,Villa,5,3,1,2.52,467,59,246,Flexible,9,27.538692,7.87504,377.1
+702,Austin,Beachside,Private room,Cottage,1,1,5,3.73,453,91,158,Flexible,6,0.409476,49.299124,316.43
+703,Los Angeles,Downtown,Hotel room,Condo,2,3,9,4.97,102,63,202,Flexible,7,39.868051,-95.650164,527.24
+704,Austin,Old Town,Shared room,Condo,5,3,7,3.2,480,61,111,Strict,3,-88.932921,28.417383,466.19
+705,Los Angeles,Harbor Area,Hotel room,Cottage,5,1,7,3.49,54,96,291,Moderate,9,16.639336,52.980398,508.48
+706,Los Angeles,Uptown,Entire home/apt,Townhouse,4,3,2,4.22,256,91,309,Strict,3,62.533104,67.278988,489.51
+707,Los Angeles,Harbor Area,Entire home/apt,Cottage,3,1,8,4.54,100,79,118,Moderate,7,-25.75802,99.505196,514.18
+708,San Francisco,Harbor Area,Hotel room,Condo,3,2,3,3.54,197,81,16,Strict,2,-70.507916,-67.917873,478.69
+709,Los Angeles,Suburb,Hotel room,Loft,4,1,8,3.27,300,81,330,Moderate,8,-14.242095,24.399704,388.28
+710,Chicago,Downtown,Private room,Apartment,4,3,3,4.84,225,91,226,Flexible,2,40.878801,173.368451,415.96
+711,Denver,Uptown,Hotel room,Apartment,4,1,7,4.19,430,81,360,Flexible,3,-70.685782,143.331901,378.97
+712,Austin,Uptown,Private room,Cottage,3,3,2,2.8,462,75,116,Flexible,2,-52.911259,162.959554,342.33
+713,New York,Harbor Area,Entire home/apt,House,4,2,4,2.67,236,50,42,Strict,8,-63.440668,-40.990897,418.73
+714,Boston,Downtown,Private room,Cottage,1,1,6,3.71,25,91,114,Flexible,10,53.450596,103.294118,295.05
+715,Seattle,Beachside,Hotel room,Townhouse,5,2,9,3.05,120,51,282,Moderate,8,-78.679328,43.163263,521.21
+716,Atlanta,Uptown,Entire home/apt,Cottage,5,3,5,3.13,397,66,36,Strict,6,33.58557,-150.21537,313.9
+717,San Francisco,Beachside,Shared room,Apartment,2,3,9,4.69,181,79,301,Moderate,2,-24.037754,116.63294,673.73
+718,New York,Downtown,Private room,Condo,2,2,5,2.72,198,88,112,Strict,5,46.042424,63.756459,387.41
+719,Miami,Beachside,Entire home/apt,Cottage,5,1,8,4.29,301,56,34,Moderate,5,83.589015,-108.389751,539.42
+720,Chicago,Midtown,Private room,Condo,1,1,1,3.18,254,76,131,Moderate,7,-69.381846,-151.294119,219.82
+721,Atlanta,Suburb,Entire home/apt,Condo,3,3,7,4.4,121,58,335,Strict,6,-33.410693,121.327967,366.44
+722,Boston,City Center,Entire home/apt,House,3,2,4,4.31,30,71,335,Strict,6,55.822577,-151.595341,457.57
+723,New York,Uptown,Private room,Condo,1,2,5,2.52,471,83,227,Flexible,7,-42.091491,-147.112608,380.4
+724,Atlanta,Old Town,Shared room,Apartment,3,1,6,3.77,314,95,146,Flexible,3,-51.278293,-26.133016,280.05
+725,New York,Suburb,Entire home/apt,Loft,4,1,5,2.85,478,98,121,Moderate,2,58.568036,-131.472782,405.92
+726,Chicago,City Center,Entire home/apt,Loft,5,1,1,4.67,284,50,80,Moderate,4,87.674826,148.921055,349.64
+727,Boston,Beachside,Entire home/apt,Villa,5,2,9,4.68,105,58,172,Moderate,9,10.238506,-10.697783,559.82
+728,Miami,Uptown,Shared room,Townhouse,1,1,2,3.55,223,69,153,Strict,10,-39.951225,24.894353,321.81
+729,Los Angeles,Beachside,Shared room,Cottage,3,1,9,3.61,272,68,149,Strict,8,-18.258127,154.118192,495.26
+730,Austin,Midtown,Hotel room,Townhouse,2,3,2,3.26,397,85,57,Flexible,9,-59.376541,10.894761,319.84
+731,Miami,Downtown,Private room,Apartment,2,1,9,4.29,231,89,62,Moderate,2,47.13971,-52.707187,494.92
+732,Los Angeles,Uptown,Shared room,Condo,3,1,6,3.4,419,94,155,Flexible,4,49.225323,106.975838,405.11
+733,San Francisco,City Center,Private room,Loft,2,2,9,3.17,255,53,355,Strict,8,67.521779,-20.573929,558.9
+734,Denver,City Center,Hotel room,Townhouse,1,2,6,3.58,441,58,321,Strict,6,-85.211539,-65.351007,238.43
+735,Seattle,Midtown,Private room,Apartment,1,3,6,2.73,495,90,167,Strict,3,11.156641,80.362605,312.19
+736,Seattle,Midtown,Shared room,Loft,3,1,2,4.37,23,71,165,Flexible,3,-51.434022,108.578044,416.83
+737,Austin,Harbor Area,Private room,Condo,2,3,8,2.53,108,67,84,Strict,6,-28.641057,105.01782,335.79
+738,Boston,Uptown,Shared room,Townhouse,1,2,3,4.11,190,61,136,Moderate,10,51.292011,171.962789,367.15
+739,Chicago,Beachside,Private room,Loft,1,3,7,2.96,346,91,188,Flexible,10,-55.433943,103.200102,341.69
+740,Boston,Old Town,Shared room,Cottage,4,2,5,3.08,24,92,1,Strict,2,24.901515,97.176037,380.28
+741,Chicago,City Center,Shared room,Cottage,4,3,3,4.09,186,88,105,Flexible,9,27.821914,128.694691,339.77
+742,Boston,City Center,Private room,Villa,1,3,1,4.98,287,58,363,Flexible,5,81.736905,-179.93333,416.95
+743,Denver,Midtown,Hotel room,Villa,3,1,8,4.44,115,55,71,Strict,10,49.528967,-49.524692,338.45
+744,San Francisco,Suburb,Entire home/apt,Loft,5,3,3,3.06,337,68,125,Strict,2,54.654326,85.537115,511.84
+745,San Francisco,Midtown,Hotel room,Apartment,5,1,2,2.94,365,97,169,Flexible,4,5.688135,35.898844,451.79
+746,Los Angeles,Old Town,Private room,Cottage,1,1,1,4.67,401,96,204,Flexible,2,-56.379455,-116.074079,291.1
+747,Atlanta,Beachside,Hotel room,Apartment,1,1,4,3.61,36,56,312,Strict,2,-13.398594,-70.656088,232.51
+748,San Francisco,Beachside,Shared room,Apartment,1,1,8,2.84,281,65,336,Moderate,4,8.908123,-58.75466,377.83
+749,San Francisco,Suburb,Entire home/apt,Loft,3,3,3,4.66,136,54,194,Flexible,7,32.115465,24.41812,470.41
+750,Miami,City Center,Private room,Apartment,4,2,1,4.54,226,65,157,Flexible,4,19.38764,119.375387,498.32
+751,Miami,Midtown,Private room,Cottage,1,2,4,4.96,319,50,140,Moderate,2,-19.083991,155.697041,384.78
+752,Los Angeles,Harbor Area,Private room,Condo,1,2,9,4.77,327,86,274,Strict,3,-42.243641,90.033269,452.5
+753,Atlanta,Beachside,Entire home/apt,Villa,2,3,1,4.63,403,88,6,Strict,2,-59.718448,123.46214,292.76
+754,Austin,Old Town,Shared room,Condo,3,1,2,2.63,181,68,53,Moderate,5,34.89217,-10.765455,278.54
+755,Miami,Uptown,Private room,Apartment,1,2,9,2.76,361,86,103,Strict,7,26.171761,-39.680885,458.74
+756,Austin,Downtown,Hotel room,Condo,2,3,2,3.92,85,66,341,Strict,6,33.727044,-38.624928,359.1
+757,New York,Downtown,Private room,Cottage,5,1,3,3.83,466,75,337,Flexible,3,-22.945058,41.77387,484.53
+758,Miami,Downtown,Private room,Cottage,1,2,7,3.64,413,71,60,Flexible,7,-42.766592,-135.274786,456.52
+759,Denver,Harbor Area,Private room,Apartment,1,1,3,3.49,52,57,86,Flexible,2,46.749839,28.617906,229.57
+760,Atlanta,City Center,Private room,Loft,2,2,9,3.58,347,82,257,Moderate,10,49.256531,59.44783,303.31
+761,Los Angeles,Midtown,Shared room,Condo,3,2,6,3.92,354,51,177,Strict,2,-7.989053,-21.992854,462.25
+762,New York,Suburb,Hotel room,Loft,1,2,3,2.51,234,79,241,Strict,8,20.142735,163.140184,278.03
+763,Atlanta,Harbor Area,Shared room,Loft,5,1,9,3.15,446,96,202,Flexible,8,-22.76646,38.956778,374.03
+764,Denver,Harbor Area,Hotel room,House,1,3,1,3.8,266,69,30,Flexible,6,36.350496,-100.80019,265.18
+765,Atlanta,Beachside,Private room,Apartment,5,1,3,4.31,286,67,288,Moderate,5,60.429887,-7.482147,321.04
+766,Denver,Uptown,Entire home/apt,Villa,4,2,1,2.94,432,92,79,Strict,4,33.88199,63.145597,233.2
+767,Denver,Harbor Area,Shared room,Cottage,4,1,2,3.87,495,59,10,Moderate,3,2.264873,-63.493515,324.89
+768,Austin,Old Town,Entire home/apt,Cottage,5,3,8,4.29,486,73,253,Strict,2,-7.441567,-151.329022,529.61
+769,Boston,Uptown,Shared room,Apartment,3,1,7,3.61,99,53,286,Moderate,3,25.617537,30.036828,432.15
+770,New York,Old Town,Private room,Townhouse,1,3,2,2.57,477,86,175,Flexible,10,32.36596,161.233261,331.63
+771,Atlanta,City Center,Shared room,Townhouse,1,3,2,3.62,86,53,125,Moderate,8,10.5713,-5.374085,220.07
+772,Chicago,Midtown,Private room,Townhouse,4,1,9,3.24,402,62,46,Moderate,9,22.48961,146.199269,383.9
+773,New York,Downtown,Shared room,Villa,5,2,6,4.82,395,74,205,Flexible,9,-72.614037,120.608492,653.91
+774,Boston,Harbor Area,Private room,Cottage,1,3,5,2.81,14,62,106,Strict,8,81.317793,-126.931398,337.78
+775,New York,Midtown,Private room,Apartment,1,1,6,4.13,414,67,274,Strict,8,52.339151,74.941172,413.04
+776,San Francisco,City Center,Hotel room,Cottage,3,3,9,2.63,426,73,336,Flexible,8,-22.692983,-23.232411,561.45
+777,Chicago,Suburb,Private room,Loft,2,2,7,3.62,100,51,122,Moderate,4,11.30627,-89.911323,342.67
+778,Boston,Suburb,Hotel room,Condo,4,1,9,3.88,164,97,133,Moderate,6,-81.481585,67.297808,494.95
+779,Austin,City Center,Private room,Condo,4,1,4,3.24,462,82,106,Moderate,9,-82.578993,87.357859,351.11
+780,Atlanta,Old Town,Entire home/apt,Cottage,2,1,2,3.64,28,68,304,Strict,8,-44.8563,-115.237325,230.63
+781,Seattle,Beachside,Private room,House,1,2,8,2.91,113,58,328,Moderate,7,34.146296,149.200086,330.68
+782,Boston,Beachside,Entire home/apt,Villa,3,3,4,3.26,106,77,49,Strict,9,63.386595,90.413008,417.42
+783,Los Angeles,Old Town,Entire home/apt,Townhouse,3,1,9,4.05,409,84,336,Moderate,10,10.653458,156.01518,549.23
+784,Atlanta,Suburb,Private room,Villa,4,3,4,3.25,363,88,94,Flexible,3,5.783893,-65.853641,312.17
+785,Boston,Suburb,Entire home/apt,Villa,3,3,8,4.75,129,59,267,Flexible,8,-17.584284,158.160606,513.67
+786,San Francisco,Harbor Area,Hotel room,Loft,2,2,9,4.07,83,50,22,Strict,6,-60.912368,-47.333643,524.02
+787,Seattle,Suburb,Shared room,Villa,1,1,9,3.6,270,91,53,Strict,2,-68.696262,-160.570886,343.19
+788,San Francisco,Midtown,Private room,Condo,2,3,4,2.6,243,70,253,Flexible,10,46.922357,94.66898,493.13
+789,Seattle,Suburb,Entire home/apt,Loft,5,1,1,3.75,387,58,234,Flexible,6,76.950639,73.262932,412.07
+790,Los Angeles,Uptown,Private room,Apartment,4,1,3,4.41,213,96,58,Moderate,8,-7.509021,35.247957,398.49
+791,Atlanta,Harbor Area,Hotel room,Villa,3,2,9,3.16,305,64,163,Flexible,7,28.700219,-3.638252,329.64
+792,Austin,Downtown,Private room,Villa,5,1,4,4.52,165,84,258,Strict,3,74.602377,-168.420503,463.26
+793,San Francisco,Suburb,Private room,Apartment,3,1,5,3.13,278,54,313,Flexible,8,-73.779546,44.855011,451.9
+794,San Francisco,Old Town,Entire home/apt,Villa,1,3,7,4.56,58,90,215,Strict,4,48.686662,-29.939539,528.52
+795,Denver,Downtown,Hotel room,Apartment,1,2,5,2.71,89,71,182,Strict,10,21.027039,21.675385,299.6
+796,Seattle,Midtown,Shared room,Loft,1,1,4,4.67,370,90,56,Moderate,10,17.754692,-25.444317,288.96
+797,Miami,Old Town,Shared room,Condo,3,3,2,3.75,330,72,144,Moderate,6,-37.342723,167.780208,524.62
+798,Atlanta,Downtown,Entire home/apt,Apartment,5,2,2,3.24,411,56,89,Moderate,2,33.100804,37.479204,294.58
+799,Seattle,Old Town,Private room,House,1,2,4,3.16,193,72,310,Moderate,10,53.063596,89.725079,348.01
+800,Denver,Midtown,Entire home/apt,Apartment,5,3,9,3.58,122,93,44,Flexible,8,-69.68553,157.084901,407.75
+801,New York,Harbor Area,Entire home/apt,Villa,3,3,8,5.0,135,74,256,Moderate,3,6.033858,32.975756,599.2
+802,Seattle,Uptown,Entire home/apt,Townhouse,5,3,3,3.05,412,76,20,Flexible,9,-71.772267,-175.657494,400.88
+803,Austin,Midtown,Private room,Townhouse,3,3,9,2.76,138,90,20,Moderate,6,67.063323,-167.654996,421.37
+804,Atlanta,Midtown,Hotel room,Loft,3,3,5,3.96,228,55,51,Moderate,4,1.37461,72.841836,325.22
+805,Denver,Old Town,Entire home/apt,Cottage,4,1,3,3.72,273,83,337,Strict,9,55.433824,-79.529351,333.16
+806,New York,Harbor Area,Private room,Loft,3,1,5,3.81,438,58,170,Flexible,9,-23.744585,28.576702,399.28
+807,Chicago,City Center,Hotel room,Cottage,3,2,4,4.17,49,98,66,Strict,7,-67.485919,-107.180215,360.34
+808,Denver,Beachside,Entire home/apt,Townhouse,2,1,8,3.17,397,82,112,Moderate,9,-82.530125,-82.710405,324.42
+809,Chicago,Suburb,Shared room,Townhouse,1,1,5,4.78,117,55,299,Flexible,3,-39.328268,1.67078,340.14
+810,Atlanta,Suburb,Hotel room,Apartment,4,1,8,3.59,201,86,159,Moderate,7,-46.037934,171.205007,323.99
+811,San Francisco,Uptown,Entire home/apt,Condo,4,3,9,2.82,482,80,265,Strict,5,10.863355,41.857376,598.38
+812,Denver,Uptown,Hotel room,House,4,2,4,4.36,392,83,319,Flexible,7,-86.087009,157.013318,354.55
+813,Los Angeles,Suburb,Hotel room,Loft,2,2,7,4.11,482,90,231,Strict,10,3.702698,165.376748,456.75
+814,Chicago,Beachside,Hotel room,Villa,3,2,2,3.29,394,78,324,Moderate,10,-19.481086,-105.080401,332.93
+815,Austin,Suburb,Hotel room,Cottage,1,2,6,4.05,190,63,67,Moderate,10,13.882009,-67.970303,312.69
+816,Los Angeles,City Center,Hotel room,Villa,5,1,8,3.05,363,85,27,Moderate,3,36.435155,97.197221,470.44
+817,Boston,Beachside,Hotel room,Condo,3,1,7,3.61,459,85,115,Flexible,6,24.13655,132.035041,395.39
+818,Boston,Uptown,Entire home/apt,Cottage,2,3,7,4.75,322,64,50,Strict,4,87.235986,6.921628,509.93
+819,New York,Downtown,Shared room,Loft,3,2,8,2.83,180,57,180,Strict,7,-65.112238,177.561384,537.26
+820,San Francisco,Old Town,Private room,Apartment,3,1,7,3.47,422,75,259,Moderate,7,-12.647338,-175.834008,457.58
+821,Atlanta,City Center,Hotel room,Villa,2,1,5,4.55,77,85,78,Strict,4,-13.530467,-72.146644,284.93
+822,Denver,City Center,Private room,Condo,4,3,7,4.92,439,97,272,Flexible,5,-14.930423,44.338231,453.94
+823,Miami,Harbor Area,Entire home/apt,Loft,4,3,3,3.63,411,70,107,Moderate,6,29.483711,-11.055632,507.35
+824,Austin,Uptown,Hotel room,Townhouse,1,3,5,3.77,74,77,73,Moderate,7,-1.830949,-138.022932,367.37
+825,Chicago,Uptown,Shared room,Townhouse,1,1,7,3.93,294,53,174,Moderate,9,3.137861,-47.596649,279.18
+826,Atlanta,Midtown,Private room,Loft,4,1,9,4.83,280,65,183,Flexible,4,-12.175921,-170.839028,393.4
+827,Los Angeles,City Center,Hotel room,Loft,5,3,2,4.65,20,71,22,Moderate,6,88.505903,51.388577,503.41
+828,Boston,Midtown,Entire home/apt,Loft,3,2,4,2.93,393,61,273,Moderate,8,76.961043,141.387315,417.21
+829,Austin,Midtown,Shared room,Cottage,5,3,7,3.59,170,65,128,Moderate,2,-34.609646,138.554685,490.33
+830,Miami,Old Town,Private room,Loft,3,3,1,3.66,14,89,290,Moderate,5,-69.913094,71.836011,389.45
+831,Denver,Midtown,Private room,Villa,4,3,2,4.47,210,87,319,Strict,8,61.15765,-12.32273,361.23
+832,New York,Beachside,Hotel room,Condo,1,3,9,4.01,47,91,185,Moderate,4,89.490645,4.331383,559.3
+833,Miami,Suburb,Shared room,Cottage,1,1,7,4.14,85,86,58,Flexible,10,-37.330399,-130.709223,402.85
+834,Austin,Downtown,Shared room,Loft,5,2,7,5.0,148,78,0,Moderate,2,-25.598713,-57.233846,511.53
+835,Miami,Uptown,Shared room,House,1,3,6,2.69,187,67,130,Moderate,9,79.493973,-112.417893,343.77
+836,Austin,Beachside,Shared room,House,4,2,3,3.06,371,59,66,Strict,2,38.003313,115.632073,368.73
+837,Austin,Downtown,Entire home/apt,Condo,5,2,3,3.52,491,91,292,Moderate,7,-36.7851,149.311404,400.36
+838,Seattle,City Center,Shared room,Townhouse,3,2,2,3.37,479,88,284,Strict,4,14.588368,13.292374,377.0
+839,Chicago,City Center,Private room,Apartment,1,3,6,2.55,305,67,88,Flexible,7,79.961324,81.995055,306.63
+840,Boston,City Center,Private room,Apartment,2,1,4,2.73,150,50,99,Strict,10,56.126359,-136.272682,304.17
+841,Seattle,Beachside,Entire home/apt,Townhouse,1,3,5,4.2,140,88,188,Moderate,6,43.529888,39.072472,362.81
+842,Denver,Beachside,Private room,Cottage,3,2,3,4.7,68,70,345,Flexible,6,42.659336,73.004768,303.57
+843,Seattle,Uptown,Private room,Cottage,5,2,6,3.79,259,50,240,Moderate,2,-57.956342,-17.003473,464.4
+844,San Francisco,Suburb,Shared room,Cottage,3,1,3,3.85,475,64,269,Strict,8,58.442623,-92.42169,485.24
+845,San Francisco,Harbor Area,Private room,Apartment,2,3,8,3.14,333,53,218,Flexible,8,-40.298646,135.854827,462.98
+846,Boston,Midtown,Entire home/apt,House,4,2,9,4.42,455,69,175,Flexible,9,77.465998,87.447139,522.7
+847,Miami,City Center,Shared room,Apartment,1,1,4,4.38,8,59,340,Strict,7,-24.364802,143.948621,403.89
+848,Chicago,Old Town,Hotel room,Villa,5,2,9,3.97,120,72,232,Strict,3,64.378871,114.624953,497.94
+849,Boston,Suburb,Shared room,Loft,4,1,7,3.03,370,90,150,Flexible,5,-42.077971,176.534795,416.14
+850,Austin,Old Town,Entire home/apt,Cottage,3,1,3,2.74,418,83,276,Flexible,7,2.614849,-110.817816,267.21
+851,Los Angeles,Uptown,Shared room,House,5,3,7,2.66,100,95,228,Strict,10,-70.760647,-148.770804,558.63
+852,Chicago,Uptown,Shared room,Condo,4,2,1,3.98,148,97,170,Moderate,2,28.821403,-58.678995,333.75
+853,Chicago,Uptown,Entire home/apt,Condo,5,3,3,4.56,441,82,222,Flexible,8,60.49427,-133.558497,402.1
+854,Austin,Downtown,Shared room,Loft,2,2,6,4.65,145,83,212,Strict,6,39.320511,8.326841,427.62
+855,Austin,Old Town,Entire home/apt,House,2,3,4,3.66,352,88,281,Moderate,3,4.186532,47.890406,371.52
+856,New York,Suburb,Entire home/apt,Apartment,1,2,7,4.46,455,59,40,Flexible,3,-81.879142,28.183901,507.84
+857,Boston,Harbor Area,Hotel room,Apartment,1,3,3,4.87,242,69,121,Flexible,6,78.019381,-86.673551,378.88
+858,Austin,Suburb,Private room,Villa,2,1,1,3.19,240,50,226,Strict,8,36.988119,147.176651,262.15
+859,San Francisco,Beachside,Private room,Villa,5,2,9,3.49,336,62,293,Moderate,8,44.255563,-172.377949,699.91
+860,Denver,Beachside,Shared room,Apartment,2,2,6,4.83,42,50,87,Flexible,6,53.042504,-54.715193,358.28
+861,Los Angeles,City Center,Shared room,Condo,1,1,8,3.35,94,54,266,Moderate,8,44.593817,78.837291,404.08
+862,Boston,Harbor Area,Hotel room,Cottage,2,3,3,4.78,225,65,28,Moderate,7,-10.59909,96.094413,478.5
+863,Atlanta,Beachside,Hotel room,Condo,2,2,8,4.95,5,64,246,Flexible,2,42.051929,-30.197324,350.57
+864,San Francisco,Uptown,Hotel room,Villa,5,2,2,4.15,213,98,315,Moderate,2,22.504822,-173.912467,536.27
+865,Miami,Suburb,Entire home/apt,Loft,4,3,4,4.54,205,77,243,Flexible,10,63.72294,42.495724,567.36
+866,Austin,Old Town,Hotel room,Apartment,1,1,3,4.37,66,80,60,Moderate,2,54.442767,-157.285915,266.19
+867,Atlanta,Uptown,Hotel room,Villa,5,3,1,4.25,395,72,146,Flexible,2,-82.552611,-141.171921,323.4
+868,Austin,Downtown,Shared room,Villa,2,3,7,3.27,99,97,173,Strict,4,-21.800324,54.090259,403.5
+869,Chicago,Beachside,Hotel room,Cottage,2,3,2,2.64,11,94,277,Flexible,8,-83.751093,-67.504203,189.87
+870,San Francisco,Uptown,Entire home/apt,Apartment,4,2,4,3.36,236,92,333,Flexible,6,-71.626514,-54.709145,528.67
+871,Chicago,Uptown,Entire home/apt,Cottage,1,1,9,4.17,321,66,141,Flexible,4,18.25393,-4.749452,353.4
+872,New York,Downtown,Shared room,Apartment,1,1,6,2.76,257,98,43,Moderate,9,67.287928,172.288222,325.95
+873,Chicago,Midtown,Hotel room,Cottage,3,3,8,2.53,398,83,143,Strict,2,-68.431543,167.559199,380.99
+874,New York,Suburb,Hotel room,Condo,1,2,2,2.85,406,62,352,Moderate,8,-8.803928,-30.14604,326.25
+875,New York,Old Town,Entire home/apt,Loft,4,3,7,4.29,412,63,332,Moderate,7,73.958203,-84.420282,610.61
+876,Atlanta,City Center,Hotel room,Loft,3,2,6,4.93,336,60,54,Flexible,7,56.574177,-71.066825,366.34
+877,Austin,Midtown,Hotel room,Apartment,3,2,9,4.96,479,77,306,Moderate,9,3.540221,-83.238733,502.99
+878,Miami,Beachside,Hotel room,House,2,2,7,3.73,134,91,357,Flexible,9,48.882859,11.608491,484.75
+879,Chicago,Uptown,Private room,Townhouse,2,2,1,4.67,221,81,160,Strict,8,4.084879,38.469531,278.68
+880,San Francisco,Harbor Area,Shared room,Villa,1,1,8,4.34,155,84,284,Moderate,9,-61.543379,-4.03942,496.95
+881,New York,Downtown,Private room,Villa,3,2,3,3.75,141,80,324,Moderate,10,-67.5475,-33.12203,495.79
+882,Austin,Downtown,Shared room,Apartment,2,2,2,3.93,427,66,197,Moderate,8,-56.093718,-103.937386,308.78
+883,Los Angeles,Harbor Area,Entire home/apt,Cottage,4,3,3,2.84,157,96,158,Flexible,10,-26.834023,-6.297987,474.7
+884,Boston,Suburb,Hotel room,House,2,3,6,4.84,464,58,79,Flexible,2,77.495268,-57.203023,504.29
+885,Atlanta,Midtown,Shared room,Condo,2,1,3,3.38,415,59,30,Moderate,3,53.942114,14.974367,263.55
+886,Miami,City Center,Private room,Cottage,3,3,5,3.62,493,57,111,Moderate,10,-12.095719,63.06819,441.75
+887,Seattle,Suburb,Hotel room,Cottage,3,2,6,4.18,325,70,45,Strict,10,-1.246192,47.992383,432.61
+888,Atlanta,Harbor Area,Entire home/apt,Apartment,5,3,8,3.33,370,62,352,Strict,9,-42.190298,-13.503524,377.57
+889,Los Angeles,Uptown,Shared room,Apartment,4,1,7,3.14,343,99,204,Strict,5,36.783532,20.178873,472.84
+890,Boston,Harbor Area,Shared room,Villa,3,3,8,4.08,261,54,51,Strict,7,54.497821,-77.451793,492.2
+891,Los Angeles,Suburb,Shared room,Apartment,1,3,3,2.56,282,55,137,Strict,7,-46.997155,-171.273507,259.76
+892,Chicago,Old Town,Hotel room,Apartment,4,1,4,4.3,337,79,73,Flexible,6,-82.472108,45.007004,374.35
+893,New York,Downtown,Private room,Apartment,4,1,6,3.79,343,80,40,Strict,9,22.30001,-89.075319,504.76
+894,Miami,Downtown,Private room,Villa,3,2,7,4.01,228,66,76,Strict,2,11.252181,60.823336,488.64
+895,Denver,Beachside,Shared room,Condo,4,3,9,4.08,375,60,186,Moderate,8,-17.616392,88.92306,406.97
+896,New York,Beachside,Entire home/apt,Condo,3,2,1,3.82,279,69,51,Flexible,7,25.90091,149.733989,422.78
+897,Denver,Harbor Area,Entire home/apt,Townhouse,2,3,8,3.96,357,97,86,Strict,7,9.110394,164.924206,338.6
+898,Boston,City Center,Private room,Townhouse,5,3,8,4.21,289,58,108,Strict,5,-44.895316,-176.210623,579.47
+899,Austin,Uptown,Entire home/apt,Apartment,2,2,6,4.38,167,51,224,Strict,7,-18.408784,176.534715,361.24
+900,Seattle,Old Town,Private room,Townhouse,3,3,4,4.32,46,86,247,Moderate,7,-12.939557,65.886595,419.12
+901,San Francisco,Midtown,Shared room,Villa,3,3,3,4.67,462,50,68,Moderate,5,68.444639,51.668698,558.27
+902,New York,Suburb,Private room,Condo,2,3,3,2.97,202,53,119,Moderate,10,82.962748,-174.523286,427.64
+903,Miami,City Center,Private room,Cottage,1,1,6,3.5,213,85,66,Strict,10,70.740245,130.044028,365.29
+904,Los Angeles,Uptown,Shared room,Condo,1,2,8,4.87,245,74,60,Moderate,3,39.452044,-127.623079,493.61
+905,Miami,Beachside,Entire home/apt,Condo,1,1,7,3.49,23,52,326,Strict,10,15.298692,121.438855,353.59
+906,Boston,Harbor Area,Private room,Villa,3,2,1,2.81,320,58,190,Flexible,3,34.067094,-174.397483,281.04
+907,Denver,Suburb,Private room,Townhouse,4,2,6,3.81,273,71,188,Strict,5,79.03966,52.547134,330.75
+908,Los Angeles,Beachside,Shared room,Cottage,3,3,7,2.77,43,72,150,Moderate,3,-45.000228,-23.471448,415.91
+909,San Francisco,Harbor Area,Entire home/apt,Villa,4,2,7,3.01,331,61,285,Flexible,4,6.321691,-107.723978,503.68
+910,San Francisco,Suburb,Private room,Apartment,2,1,9,5.0,312,59,95,Strict,10,34.129443,-141.277899,658.01
+911,New York,Midtown,Shared room,Loft,5,1,5,3.85,362,83,311,Flexible,4,32.26446,-21.554029,483.38
+912,Boston,Uptown,Private room,Condo,4,1,1,3.21,155,92,308,Flexible,4,-44.589787,-135.60991,389.12
+913,Austin,Suburb,Hotel room,Loft,1,2,2,4.99,487,59,262,Flexible,10,15.611675,-4.87922,322.21
+914,Boston,Old Town,Shared room,Villa,3,1,4,4.92,379,79,96,Strict,6,53.264366,45.078141,448.63
+915,Denver,City Center,Entire home/apt,Villa,2,2,5,3.6,198,71,112,Moderate,3,-4.485784,117.85831,274.78
+916,Miami,Downtown,Entire home/apt,Villa,1,1,9,3.15,406,55,124,Strict,2,52.793654,64.313797,417.79
+917,San Francisco,Old Town,Entire home/apt,Loft,2,1,1,4.6,468,99,131,Moderate,6,-25.221132,-156.528084,383.08
+918,Miami,Old Town,Entire home/apt,Villa,5,2,3,4.29,161,51,120,Strict,8,78.976823,-69.324288,545.37
+919,Miami,City Center,Private room,Apartment,3,1,5,4.22,394,79,196,Strict,8,6.107119,-76.327701,490.47
+920,Miami,Downtown,Private room,Villa,3,3,3,4.73,469,51,293,Strict,2,17.270631,149.411672,485.61
+921,San Francisco,Old Town,Entire home/apt,House,5,2,4,4.22,233,81,121,Moderate,5,-84.354918,132.401536,593.2
+922,Atlanta,Suburb,Entire home/apt,Townhouse,3,2,3,3.21,162,91,281,Strict,4,-59.351555,-46.746749,272.8
+923,Chicago,Suburb,Entire home/apt,Loft,4,2,4,4.23,115,65,259,Flexible,7,23.928098,-154.384108,389.85
+924,Denver,Suburb,Private room,House,2,3,1,3.26,92,61,38,Strict,7,-14.423333,141.878634,279.7
+925,Atlanta,Downtown,Entire home/apt,Villa,1,2,8,4.4,41,50,53,Flexible,10,1.469482,139.748383,324.41
+926,Denver,Old Town,Entire home/apt,Apartment,5,1,4,4.05,283,57,160,Moderate,4,-78.665146,127.708608,349.65
+927,Los Angeles,Harbor Area,Hotel room,Condo,4,1,7,2.69,378,97,288,Moderate,7,60.144343,124.22939,419.85
+928,Boston,Downtown,Hotel room,Cottage,1,1,2,3.78,209,99,199,Strict,8,51.211008,-7.10856,329.01
+929,Boston,Suburb,Entire home/apt,Townhouse,1,2,2,3.36,205,62,275,Strict,9,-56.636284,-116.124605,299.32
+930,Seattle,City Center,Shared room,Cottage,5,1,6,3.32,465,64,15,Strict,3,24.179284,-8.104302,445.01
+931,Boston,Old Town,Entire home/apt,Villa,4,2,2,4.01,219,93,172,Flexible,2,57.296738,-1.944803,448.25
+932,San Francisco,Old Town,Hotel room,Townhouse,1,1,6,3.31,279,57,247,Moderate,3,25.353745,-3.624569,442.63
+933,Austin,Beachside,Shared room,Townhouse,1,3,2,4.44,135,59,217,Flexible,6,-34.128343,13.958131,331.96
+934,New York,Beachside,Shared room,Apartment,4,3,4,2.68,105,95,86,Flexible,6,28.100007,-87.243472,467.56
+935,Seattle,Midtown,Entire home/apt,Townhouse,3,3,7,4.15,117,54,81,Strict,5,-52.116885,-48.153175,525.14
+936,New York,Harbor Area,Hotel room,Loft,1,3,8,4.52,236,99,61,Strict,7,-32.7141,-23.692827,591.31
+937,Denver,Harbor Area,Hotel room,House,2,2,3,4.18,308,68,286,Flexible,6,-46.787462,-132.796365,265.13
+938,New York,Uptown,Shared room,House,4,1,9,3.74,455,96,41,Flexible,4,10.246518,-16.068912,539.76
+939,New York,Harbor Area,Entire home/apt,House,1,3,2,4.88,387,87,11,Strict,5,-70.519204,111.769062,413.96
+940,Seattle,Beachside,Private room,Loft,5,2,8,3.25,474,60,320,Strict,10,77.995868,118.101435,516.33
+941,Los Angeles,Downtown,Private room,Cottage,2,3,8,2.55,99,92,233,Flexible,7,-29.967776,-31.837042,487.44
+942,Miami,Harbor Area,Hotel room,Apartment,1,3,4,3.58,260,69,328,Strict,6,-50.585377,6.770992,376.17
+943,Boston,Beachside,Private room,Townhouse,2,2,1,2.58,480,69,130,Strict,7,-0.621034,-167.88588,295.66
+944,Boston,Midtown,Hotel room,Loft,2,2,1,4.88,304,70,114,Flexible,9,-40.140393,62.79572,358.32
+945,San Francisco,Old Town,Hotel room,House,3,1,2,3.02,353,67,217,Flexible,3,6.282736,-34.341882,458.29
+946,Seattle,Harbor Area,Hotel room,Villa,2,1,9,4.47,285,99,136,Moderate,4,-27.268353,-19.628034,469.72
+947,San Francisco,Midtown,Private room,Condo,3,3,2,4.44,327,59,105,Flexible,5,-66.227974,134.522182,485.27
+948,Austin,Old Town,Hotel room,Townhouse,4,3,2,3.04,102,83,178,Strict,5,-42.138856,-13.739604,304.15
+949,Austin,City Center,Shared room,Loft,3,1,6,4.05,62,75,15,Flexible,7,-11.080828,-172.370791,412.3
+950,San Francisco,City Center,Entire home/apt,Loft,5,1,7,2.62,174,79,241,Flexible,4,-84.547219,-98.103279,526.21
+951,Seattle,Old Town,Entire home/apt,Apartment,1,2,7,3.71,281,58,333,Flexible,10,48.715655,-8.776579,398.11
+952,San Francisco,Harbor Area,Hotel room,Apartment,4,1,9,2.54,440,95,225,Moderate,10,21.928422,-27.217335,558.36
+953,Boston,Uptown,Entire home/apt,Loft,4,1,6,4.8,292,80,241,Moderate,9,18.244729,129.733249,442.1
+954,Atlanta,Beachside,Private room,House,5,3,8,4.94,225,91,140,Strict,8,8.288988,15.169503,408.61
+955,Chicago,Downtown,Private room,Condo,3,1,6,3.06,6,53,198,Moderate,9,16.256371,68.268867,311.63
+956,New York,Downtown,Entire home/apt,Townhouse,1,3,2,3.02,126,55,111,Flexible,7,78.237351,-11.043613,328.47
+957,Chicago,Suburb,Private room,Apartment,3,1,1,4.38,423,63,126,Moderate,4,-88.457542,-21.723936,303.06
+958,Seattle,Old Town,Entire home/apt,Townhouse,2,2,5,3.13,91,53,20,Flexible,2,-81.396052,-19.336799,362.37
+959,Chicago,Downtown,Entire home/apt,House,3,1,9,4.74,422,75,146,Moderate,3,-55.531186,-32.068235,463.82
+960,Austin,Harbor Area,Entire home/apt,Townhouse,4,1,8,3.93,189,96,88,Moderate,6,-59.885752,13.890019,451.21
+961,Denver,Uptown,Hotel room,Villa,1,1,4,3.38,358,97,302,Moderate,5,-57.384997,-89.840375,274.83
+962,New York,Old Town,Entire home/apt,Apartment,3,3,5,4.58,475,88,202,Flexible,4,30.949899,140.77987,537.77
+963,Miami,Uptown,Hotel room,House,1,2,5,3.73,461,66,84,Moderate,6,-7.293006,-60.089203,430.36
+964,Seattle,Harbor Area,Entire home/apt,House,1,1,6,4.78,52,68,166,Flexible,2,88.520198,-126.89142,365.51
+965,New York,Downtown,Entire home/apt,Condo,2,3,3,4.82,241,98,71,Flexible,9,-49.160535,-145.241828,462.53
+966,Chicago,Downtown,Entire home/apt,Condo,2,2,5,2.91,485,55,297,Strict,10,-34.050582,-175.167751,271.78
+967,Austin,Suburb,Private room,Villa,4,3,2,2.51,131,78,8,Moderate,4,87.163329,-27.771812,269.8
+968,Los Angeles,Downtown,Hotel room,House,5,3,1,4.96,489,60,280,Strict,5,59.716465,-112.460044,531.33
+969,Atlanta,Old Town,Hotel room,Cottage,1,2,1,4.77,465,65,257,Strict,5,-5.43614,-172.206755,208.94
+970,Miami,Harbor Area,Entire home/apt,House,5,1,7,2.64,363,79,274,Flexible,3,9.827439,7.207037,539.01
+971,Atlanta,City Center,Entire home/apt,Condo,4,3,2,4.58,111,74,237,Moderate,9,61.772026,64.792278,322.76
+972,New York,Harbor Area,Private room,Cottage,1,3,4,3.64,408,89,19,Flexible,8,-3.423556,-149.129622,366.84
+973,Austin,Old Town,Private room,Apartment,1,1,5,3.15,6,60,232,Flexible,3,-52.91573,-14.068522,248.35
+974,Austin,Old Town,Private room,Apartment,5,1,7,4.7,229,56,220,Moderate,5,59.120017,87.706324,478.68
+975,Chicago,Suburb,Hotel room,Townhouse,3,2,2,2.99,155,75,325,Flexible,2,6.799048,174.890456,240.05
+976,Boston,Suburb,Hotel room,Loft,2,2,6,4.87,196,71,16,Moderate,7,-62.452333,60.188524,481.04
+977,Chicago,Downtown,Hotel room,Condo,3,2,1,3.01,322,74,88,Moderate,9,1.00545,-91.857762,237.02
+978,Boston,Midtown,Entire home/apt,Loft,5,1,7,4.03,363,68,195,Flexible,7,-15.623391,77.95931,492.43
+979,Boston,Harbor Area,Hotel room,Cottage,2,3,9,3.06,222,80,349,Flexible,10,67.831656,35.254594,469.56
+980,Miami,Harbor Area,Shared room,Condo,3,3,5,3.86,366,75,83,Strict,10,-67.310022,-103.752256,507.2
+981,Chicago,Midtown,Shared room,Villa,2,2,5,4.21,489,91,86,Flexible,4,67.537765,126.399897,364.4
+982,Los Angeles,Suburb,Private room,House,1,1,4,2.98,249,90,306,Moderate,5,2.197983,-26.134406,259.79
+983,San Francisco,Downtown,Hotel room,Villa,3,3,3,3.8,403,85,337,Strict,2,-17.214403,166.311956,498.43
+984,San Francisco,Midtown,Shared room,Cottage,2,2,9,3.67,82,72,153,Moderate,3,-60.845907,80.244363,590.54
+985,Chicago,Downtown,Private room,Condo,2,3,5,2.68,239,96,227,Strict,3,36.147233,52.042736,306.07
+986,Chicago,Downtown,Hotel room,Cottage,2,3,8,4.55,379,62,263,Flexible,3,76.825208,82.207021,417.09
+987,Atlanta,Downtown,Entire home/apt,House,3,1,9,3.34,394,74,222,Flexible,4,-22.432076,-7.885073,318.06
+988,Miami,Beachside,Shared room,Apartment,4,1,5,3.94,359,51,120,Flexible,4,-46.5147,1.881532,517.86
+989,Chicago,Old Town,Entire home/apt,Apartment,3,3,9,3.79,322,51,172,Moderate,9,9.876045,126.434659,410.19
+990,Atlanta,Downtown,Hotel room,Cottage,5,2,2,3.78,470,65,3,Strict,6,53.313471,65.134273,278.52
+991,Boston,Beachside,Shared room,Loft,3,1,9,2.77,262,58,341,Moderate,6,-89.321815,143.007597,401.11
+992,Austin,Suburb,Hotel room,Condo,2,3,4,3.56,406,77,127,Strict,10,23.647939,140.697631,357.67
+993,Austin,Midtown,Entire home/apt,Condo,1,1,6,3.63,188,62,109,Flexible,10,17.37288,171.536412,266.78
+994,Boston,Old Town,Shared room,Apartment,3,1,6,4.33,454,84,354,Moderate,5,-32.732607,72.077277,433.22
+995,Seattle,City Center,Entire home/apt,Townhouse,3,1,6,4.6,365,90,36,Flexible,7,-8.743859,0.828618,435.76
+996,Atlanta,Midtown,Hotel room,Villa,2,3,2,3.86,289,62,70,Moderate,9,-45.54662,-120.127788,244.6
+997,Atlanta,Old Town,Hotel room,Townhouse,1,2,7,2.72,361,80,288,Flexible,3,52.179433,73.937001,255.79
+998,Boston,City Center,Entire home/apt,House,1,2,6,3.09,402,70,30,Moderate,7,24.216288,-75.032022,381.98
+999,Los Angeles,Midtown,Shared room,Villa,5,2,1,2.91,57,81,267,Moderate,2,5.888092,-78.138876,415.92
+1000,Denver,Old Town,Entire home/apt,Villa,3,1,2,2.81,8,83,10,Strict,6,-19.345284,-94.2164,207.12
