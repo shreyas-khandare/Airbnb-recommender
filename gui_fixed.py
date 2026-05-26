@@ -1,8 +1,7 @@
 import tkinter as tk
-from tkinter import ttk, messagebox, scrolledtext
+from tkinter import ttk, messagebox
 import pandas as pd
 import joblib
-from tkinter import font
 import threading
 import time
 
@@ -48,25 +47,28 @@ def validate_price_input(value):
 
 def on_input_change(*args):
     """Real-time validation and feedback"""
-    # Validate bedrooms
-    bedrooms_valid, bedrooms_msg = validate_numeric_input(bedrooms_var.get(), "Bedrooms", 0, 10)
-    bedrooms_status.config(text=bedrooms_msg, fg="red" if bedrooms_msg else "green")
-    
-    # Validate bathrooms
-    bathrooms_valid, bathrooms_msg = validate_numeric_input(bathrooms_var.get(), "Bathrooms", 0, 10)
-    bathrooms_status.config(text=bathrooms_msg, fg="red" if bathrooms_msg else "green")
-    
-    # Validate accommodates
-    accommodates_valid, accommodates_msg = validate_numeric_input(accommodates_var.get(), "Accommodates", 1, 20)
-    accommodates_status.config(text=accommodates_msg, fg="red" if accommodates_msg else "green")
-    
-    # Validate price
-    price_valid, price_msg = validate_price_input(max_price_var.get())
-    price_status.config(text=price_msg, fg="red" if price_msg else "green")
-    
-    # Enable/disable recommend button
-    all_valid = bedrooms_valid and bathrooms_valid and accommodates_valid and price_valid
-    recommend_btn.config(state="normal" if all_valid else "disabled")
+    try:
+        # Validate bedrooms
+        bedrooms_valid, bedrooms_msg = validate_numeric_input(bedrooms_var.get(), "Bedrooms", 0, 10)
+        bedrooms_status.config(text=bedrooms_msg, foreground="red" if bedrooms_msg else "green")
+        
+        # Validate bathrooms
+        bathrooms_valid, bathrooms_msg = validate_numeric_input(bathrooms_var.get(), "Bathrooms", 0, 10)
+        bathrooms_status.config(text=bathrooms_msg, foreground="red" if bathrooms_msg else "green")
+        
+        # Validate accommodates
+        accommodates_valid, accommodates_msg = validate_numeric_input(accommodates_var.get(), "Accommodates", 1, 20)
+        accommodates_status.config(text=accommodates_msg, foreground="red" if accommodates_msg else "green")
+        
+        # Validate price
+        price_valid, price_msg = validate_price_input(max_price_var.get())
+        price_status.config(text=price_msg, foreground="red" if price_msg else "green")
+        
+        # Enable/disable recommend button
+        all_valid = bedrooms_valid and bathrooms_valid and accommodates_valid and price_valid
+        recommend_btn.config(state="normal" if all_valid else "disabled")
+    except:
+        pass  # Ignore errors during initialization
 
 # ---------- Enhanced recommendation function ----------
 def recommend():
@@ -76,42 +78,42 @@ def recommend():
             # Show loading state
             recommend_btn.config(text="Searching...", state="disabled")
             progress_bar.start()
-            status_label.config(text="Finding your perfect Airbnb...", fg="blue")
+            status_label.config(text="Finding your perfect Airbnb...", foreground="blue")
             
             # Small delay for visual feedback
             time.sleep(0.5)
             
-        # Transform user inputs
-        city_input = label_encoders["city"].transform([city_var.get()])[0]
-        room_type_input = label_encoders["room_type"].transform([room_type_var.get()])[0]
-        bedrooms_input = int(bedrooms_var.get())
-        bathrooms_input = int(bathrooms_var.get())
-        accommodates_input = int(accommodates_var.get())
-        max_price_input = float(max_price_var.get())
-        
-        # Filter dataset based on user input
-        filtered = df[
-            (df["city"] == city_input) &
-            (df["room_type"] == room_type_input) &
-            (df["bedrooms"] >= bedrooms_input) &
-            (df["bathrooms"] >= bathrooms_input) &
-            (df["accommodates"] >= accommodates_input)
-        ]
-        
-        if filtered.empty:
-                status_label.config(text="No matching listings found. Try adjusting your criteria.", fg="orange")
+            # Transform user inputs
+            city_input = label_encoders["city"].transform([city_var.get()])[0]
+            room_type_input = label_encoders["room_type"].transform([room_type_var.get()])[0]
+            bedrooms_input = int(bedrooms_var.get())
+            bathrooms_input = int(bathrooms_var.get())
+            accommodates_input = int(accommodates_var.get())
+            max_price_input = float(max_price_var.get())
+            
+            # Filter dataset based on user input
+            filtered = df[
+                (df["city"] == city_input) &
+                (df["room_type"] == room_type_input) &
+                (df["bedrooms"] >= bedrooms_input) &
+                (df["bathrooms"] >= bathrooms_input) &
+                (df["accommodates"] >= accommodates_input)
+            ]
+            
+            if filtered.empty:
+                status_label.config(text="No matching listings found. Try adjusting your criteria.", foreground="orange")
                 clear_results()
-            return
-        
-        # Predict prices for filtered listings
-        X_filtered = filtered.drop(columns=["listing_id", "price"])
-        filtered["predicted_price"] = rf_model.predict(X_filtered)
-        
+                return
+            
+            # Predict prices for filtered listings
+            X_filtered = filtered.drop(columns=["listing_id", "price"])
+            filtered["predicted_price"] = rf_model.predict(X_filtered)
+            
             # Apply price filter
             filtered = filtered[filtered["predicted_price"] <= max_price_input]
             
             if filtered.empty:
-                status_label.config(text="No listings within your price range. Try increasing your budget.", fg="orange")
+                status_label.config(text="No listings within your price range. Try increasing your budget.", foreground="orange")
                 clear_results()
                 return
             
@@ -129,14 +131,14 @@ def recommend():
             
             # Display results
             display_results()
-            status_label.config(text=f"Found {len(results_data)} great options for you!", fg="green")
+            status_label.config(text=f"Found {len(results_data)} great options for you!", foreground="green")
             
         except Exception as e:
-            status_label.config(text=f"Error: {str(e)}", fg="red")
+            status_label.config(text=f"Error: {str(e)}", foreground="red")
             messagebox.showerror("Error", str(e))
         finally:
             # Reset UI state
-            recommend_btn.config(text="🔍 Find My Perfect Stay", state="normal")
+            recommend_btn.config(text="Find My Perfect Stay", state="normal")
             progress_bar.stop()
     
     # Run in separate thread to prevent UI freezing
@@ -163,7 +165,7 @@ def display_results():
         header_frame.pack(fill="x", padx=10, pady=5)
         
         # Listing number and price
-        tk.Label(header_frame, text=f"🏠 Option {i+1}", 
+        tk.Label(header_frame, text=f"Option {i+1}", 
                 font=("Arial", 12, "bold"), bg="#e3f2fd").pack(side="left")
         tk.Label(header_frame, text=f"${row['predicted_price']:.2f}/night", 
                 font=("Arial", 14, "bold"), fg="#1976d2", bg="#e3f2fd").pack(side="right")
@@ -180,19 +182,19 @@ def display_results():
         right_col.pack(side="right", fill="x", expand=True)
         
         # Left column details
-        tk.Label(left_col, text=f"🛏️ {int(row['bedrooms'])} bed(s)", 
+        tk.Label(left_col, text=f"Bedrooms: {int(row['bedrooms'])}", 
                 font=("Arial", 10), bg="#f8f9fa").pack(anchor="w")
-        tk.Label(left_col, text=f"🚿 {int(row['bathrooms'])} bath(s)", 
+        tk.Label(left_col, text=f"Bathrooms: {int(row['bathrooms'])}", 
                 font=("Arial", 10), bg="#f8f9fa").pack(anchor="w")
-        tk.Label(left_col, text=f"👥 Sleeps {int(row['accommodates'])}", 
+        tk.Label(left_col, text=f"Sleeps: {int(row['accommodates'])}", 
                 font=("Arial", 10), bg="#f8f9fa").pack(anchor="w")
         
         # Right column details
-        tk.Label(right_col, text=f"⭐ {row['review_score']:.1f}/5 rating", 
+        tk.Label(right_col, text=f"Rating: {row['review_score']:.1f}/5", 
                 font=("Arial", 10), bg="#f8f9fa").pack(anchor="w")
-        tk.Label(right_col, text=f"📝 {int(row['number_of_reviews'])} reviews", 
+        tk.Label(right_col, text=f"Reviews: {int(row['number_of_reviews'])}", 
                 font=("Arial", 10), bg="#f8f9fa").pack(anchor="w")
-        tk.Label(right_col, text=f"🏠 {int(row['amenities_count'])} amenities", 
+        tk.Label(right_col, text=f"Amenities: {int(row['amenities_count'])}", 
                 font=("Arial", 10), bg="#f8f9fa").pack(anchor="w")
 
 def clear_results():
@@ -216,11 +218,11 @@ def reset_form():
     accommodates_var.set("2")
     max_price_var.set("500")
     clear_results()
-    status_label.config(text="Ready to find your perfect stay!", fg="blue")
+    status_label.config(text="Ready to find your perfect stay!", foreground="blue")
 
 # ---------- Enhanced Tkinter GUI setup ----------
 root = tk.Tk()
-root.title("🏠 Airbnb Smart Recommender")
+root.title("Airbnb Smart Recommender")
 root.geometry("1000x700")
 root.configure(bg="#f5f5f5")
 
@@ -256,7 +258,7 @@ main_container.pack(fill="both", expand=True, padx=20, pady=20)
 header_frame = ttk.Frame(main_container, style='Custom.TFrame')
 header_frame.pack(fill="x", pady=(0, 20))
 
-title_label = ttk.Label(header_frame, text="🏠 Airbnb Smart Recommender", style='Title.TLabel')
+title_label = ttk.Label(header_frame, text="Airbnb Smart Recommender", style='Title.TLabel')
 title_label.pack()
 
 subtitle_label = ttk.Label(header_frame, text="Find your perfect stay with AI-powered recommendations", 
@@ -264,7 +266,7 @@ subtitle_label = ttk.Label(header_frame, text="Find your perfect stay with AI-po
 subtitle_label.pack()
 
 # ---------- Input Section ----------
-input_frame = ttk.LabelFrame(main_container, text="🎯 Your Preferences", style='Custom.TFrame', padding=20)
+input_frame = ttk.LabelFrame(main_container, text="Your Preferences", style='Custom.TFrame', padding=20)
 input_frame.pack(fill="x", pady=(0, 20))
 
 # Create input grid
@@ -275,12 +277,12 @@ input_grid.pack(fill="x")
 row1 = ttk.Frame(input_grid, style='Custom.TFrame')
 row1.pack(fill="x", pady=5)
 
-ttk.Label(row1, text="📍 City:", style='Header.TLabel').pack(side="left", padx=(0, 10))
+ttk.Label(row1, text="City:", style='Header.TLabel').pack(side="left", padx=(0, 10))
 city_combo = ttk.Combobox(row1, textvariable=city_var, values=list(label_encoders["city"].classes_),
                          state="readonly", width=20)
 city_combo.pack(side="left", padx=(0, 30))
 
-ttk.Label(row1, text="🏠 Room Type:", style='Header.TLabel').pack(side="left", padx=(0, 10))
+ttk.Label(row1, text="Room Type:", style='Header.TLabel').pack(side="left", padx=(0, 10))
 room_type_combo = ttk.Combobox(row1, textvariable=room_type_var, values=list(label_encoders["room_type"].classes_),
                               state="readonly", width=20)
 room_type_combo.pack(side="left")
@@ -289,13 +291,13 @@ room_type_combo.pack(side="left")
 row2 = ttk.Frame(input_grid, style='Custom.TFrame')
 row2.pack(fill="x", pady=5)
 
-ttk.Label(row2, text="🛏️ Bedrooms:", style='Header.TLabel').pack(side="left", padx=(0, 10))
+ttk.Label(row2, text="Bedrooms:", style='Header.TLabel').pack(side="left", padx=(0, 10))
 bedrooms_entry = ttk.Entry(row2, textvariable=bedrooms_var, width=10)
 bedrooms_entry.pack(side="left", padx=(0, 30))
 bedrooms_status = ttk.Label(row2, text="", font=('Arial', 8), background='#f5f5f5')
 bedrooms_status.pack(side="left", padx=(5, 0))
 
-ttk.Label(row2, text="🚿 Bathrooms:", style='Header.TLabel').pack(side="left", padx=(0, 10))
+ttk.Label(row2, text="Bathrooms:", style='Header.TLabel').pack(side="left", padx=(0, 10))
 bathrooms_entry = ttk.Entry(row2, textvariable=bathrooms_var, width=10)
 bathrooms_entry.pack(side="left", padx=(0, 30))
 bathrooms_status = ttk.Label(row2, text="", font=('Arial', 8), background='#f5f5f5')
@@ -305,13 +307,13 @@ bathrooms_status.pack(side="left", padx=(5, 0))
 row3 = ttk.Frame(input_grid, style='Custom.TFrame')
 row3.pack(fill="x", pady=5)
 
-ttk.Label(row3, text="👥 Accommodates:", style='Header.TLabel').pack(side="left", padx=(0, 10))
+ttk.Label(row3, text="Accommodates:", style='Header.TLabel').pack(side="left", padx=(0, 10))
 accommodates_entry = ttk.Entry(row3, textvariable=accommodates_var, width=10)
 accommodates_entry.pack(side="left", padx=(0, 30))
 accommodates_status = ttk.Label(row3, text="", font=('Arial', 8), background='#f5f5f5')
 accommodates_status.pack(side="left", padx=(5, 0))
 
-ttk.Label(row3, text="💰 Max Price ($):", style='Header.TLabel').pack(side="left", padx=(0, 10))
+ttk.Label(row3, text="Max Price ($):", style='Header.TLabel').pack(side="left", padx=(0, 10))
 price_entry = ttk.Entry(row3, textvariable=max_price_var, width=10)
 price_entry.pack(side="left", padx=(0, 30))
 price_status = ttk.Label(row3, text="", font=('Arial', 8), background='#f5f5f5')
@@ -321,11 +323,11 @@ price_status.pack(side="left", padx=(5, 0))
 button_frame = ttk.Frame(main_container, style='Custom.TFrame')
 button_frame.pack(fill="x", pady=(0, 20))
 
-recommend_btn = ttk.Button(button_frame, text="🔍 Find My Perfect Stay", 
+recommend_btn = ttk.Button(button_frame, text="Find My Perfect Stay", 
                           command=recommend, style='Custom.TButton')
 recommend_btn.pack(side="left", padx=(0, 10))
 
-reset_btn = ttk.Button(button_frame, text="🔄 Reset", command=reset_form, style='Custom.TButton')
+reset_btn = ttk.Button(button_frame, text="Reset", command=reset_form, style='Custom.TButton')
 reset_btn.pack(side="left", padx=(0, 10))
 
 # Progress bar
@@ -338,7 +340,7 @@ status_label = ttk.Label(main_container, text="Ready to find your perfect stay!"
 status_label.pack(pady=(0, 10))
 
 # ---------- Results Section ----------
-results_section = ttk.LabelFrame(main_container, text="🏆 Your Recommendations", style='Custom.TFrame', padding=10)
+results_section = ttk.LabelFrame(main_container, text="Your Recommendations", style='Custom.TFrame', padding=10)
 results_section.pack(fill="both", expand=True)
 
 # Sort controls
@@ -346,11 +348,11 @@ sort_frame = ttk.Frame(results_section, style='Custom.TFrame')
 sort_frame.pack(fill="x", pady=(0, 10))
 
 ttk.Label(sort_frame, text="Sort by:", style='Header.TLabel').pack(side="left", padx=(0, 10))
-ttk.Button(sort_frame, text="💰 Price (Low to High)", 
+ttk.Button(sort_frame, text="Price (Low to High)", 
           command=lambda: sort_results("price_asc")).pack(side="left", padx=(0, 5))
-ttk.Button(sort_frame, text="💰 Price (High to Low)", 
+ttk.Button(sort_frame, text="Price (High to Low)", 
           command=lambda: sort_results("price_desc")).pack(side="left", padx=(0, 5))
-ttk.Button(sort_frame, text="⭐ Rating (High to Low)", 
+ttk.Button(sort_frame, text="Rating (High to Low)", 
           command=lambda: sort_results("rating_desc")).pack(side="left", padx=(0, 5))
 
 # Results container with scrollbar
@@ -378,9 +380,10 @@ def _on_mousewheel(event):
     canvas.yview_scroll(int(-1*(event.delta/120)), "units")
 canvas.bind_all("<MouseWheel>", _on_mousewheel)
 
-# Initialize validation
-on_input_change()
+# Initialize validation after all widgets are created
+root.after(100, on_input_change)
 
 # ---------- Start the application ----------
 print("Airbnb Recommender GUI loaded successfully!")
 root.mainloop()
+
